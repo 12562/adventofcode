@@ -1,0 +1,50 @@
+#! /usr/bin/csh
+
+set val = "$argv[1]"
+set item_num = $argv[2]
+set val = `echo "$val" | sed 's/^(//g'`
+set brackets = ( 1 0 0 0 0 0 0 0 )
+set brkt_lvl = 2
+set item = 1
+set expression = ""
+set flag = 0
+#set all_exprs = ()
+set i = 1
+while ( $brackets[1] != 0 ) 
+  set char = `echo "$val" | sed 's/ */\n/g' | grep -v '^$' | head -n $i | tail -n 1` 
+  if ( "$char" == "(" ) then
+     set brackets[$brkt_lvl] = 1
+     if ( $brkt_lvl == 2 ) then
+        set expression = "("
+     else
+        set expression = "${expression}("
+     endif
+     @ brkt_lvl = ( $brkt_lvl + 1 )
+     set flag = 1
+  else if ( "$char" == ")" ) then
+     @ brkt_lvl = ( $brkt_lvl - 1 )
+     set brackets[$brkt_lvl] = 0
+     if ( $brkt_lvl == 2 ) then
+        set expression = "${expression})"
+        if ( $item == $item_num ) then
+           echo $expression
+        endif
+        @ item = ( $item + 1 )
+        #set all_exprs = ( "$all_exprs" "$expression" )
+        set expression = ""
+     else if ( ($brkt_lvl == 1) && ($flag == 0) ) then
+        if ( $item == $item_num ) then
+           echo $expression
+        endif
+        @ item = ( $item + 1 )
+     else
+        set expression = "${expression})"
+     endif
+  else
+    set expression = "${expression}$char"
+  endif 
+  @ i = ( $i + 1 )
+end
+if ( $item_num == 0 ) then
+   echo `expr $item - 1 `
+endif

@@ -1,0 +1,47 @@
+SA : AA , FC , MH , JA , VN
+     2/2, 3/2, 4/3, 4/3, 4/3
+
+RL : ZD
+     3/2
+
+LR : KJ
+     4/3
+
+IG : SJ , EW
+     4/3, 3/2
+
+WC : EW , JF
+     3/2, 3/2 
+
+EW : IG , WC
+     3/2, 3/2
+
+FP : SJ
+     3/2
+
+JF : WC
+     3/2
+  
+JA : MH , FC , SA , ZD , AA
+     3/2, 3/2, 4/3, 4/3, 3/3
+
+MH : AA , KJ , JA , FC , SA
+     2/2, 3/2, 3/2, 3/2, 4/3
+
+AA : MH , ZD , FC , SA , JA
+     3/2, 3/2, 3/2, 3/2, 4/3
+
+VN : SA , SJ
+     4/3, 3/2
+
+FC : AA , MH , SA , JA , SJ
+     2/2, 3/2, 3/2, 3/2, 3/2
+
+SJ : FC , VN , FP , IG
+     3/2, 3/2, 3/2, 4/3
+
+KJ : MH , LR
+     3/2, 4/3
+
+ZD : AA , RL , JA
+     2/2, 3/2, 4/3

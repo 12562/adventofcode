@@ -1,0 +1,12 @@
+
+A:
+  echo "At A"
+  goto B
+C:
+  echo "At C"
+  exit
+
+B:
+  echo "At B"
+  goto C
+

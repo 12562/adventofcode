@@ -1,26 +1,26 @@
-#! /usr/bin/csh
+#! /usr/bin/csh 
 
-set file = $argv[1]
-set i = 1
-set lst = ( `cat $file` )
-set total = 0
-set minx = `cat $file | awk -F ',' '{print $1}' | sort -n | head -n 1 | sed 's/$/ - 2/g' | bc -l`
-set miny = `cat $file | awk -F ',' '{print $2}' | sort -n | head -n 1 | sed 's/$/ - 1/g' | bc -l`
+rm -f surface_cubes
+set file = $argv[1] 
+set i = 1 set lst = ( `cat $file` ) 
+set total = 0 
+set minx = `cat $file | awk -F ',' '{print $1}' | sort -n | head -n 1 | sed 's/$/ - 2/g' | bc -l` 
+set miny = `cat $file | awk -F ',' '{print $2}' | sort -n | head -n 1 | sed 's/$/ - 1/g' | bc -l` 
 set minz = `cat $file | awk -F ',' '{print $3}' | sort -n | head -n 1 | sed 's/$/ - 1/g' | bc -l`
 echo $minx $miny $minz
 
-set maxx = `cat $file | awk -F ',' '{print $1}' | sort -n | tail -n 1 | sed 's/$/ + 11/g' | bc -l`
-set maxy = `cat $file | awk -F ',' '{print $2}' | sort -n | tail -n 1 | sed 's/$/ + 10/g' | bc -l`
-set maxz = `cat $file | awk -F ',' '{print $3}' | sort -n | tail -n 1 | sed 's/$/ + 10/g' | bc -l`
+set maxx = `cat $file | awk -F ',' '{print $1}' | sort -n | tail -n 1 | sed 's/$/ + 2/g' | bc -l`
+set maxy = `cat $file | awk -F ',' '{print $2}' | sort -n | tail -n 1 | sed 's/$/ + 1/g' | bc -l`
+set maxz = `cat $file | awk -F ',' '{print $3}' | sort -n | tail -n 1 | sed 's/$/ + 1/g' | bc -l`
 echo $maxx $maxy $maxz
 echo ""
 
 echo "$minx,$miny,$minz" > visited
-set queue = ( $minx,$miny,$minz )
+set queue = ( $minx,$miny,$minz $minx,$miny,$maxz $minx,$maxy,$minz $maxx,$miny,$maxz $maxx,$maxy,$minz $minx,$maxy,$maxz $maxx,$miny,$maxz $maxx,$maxy,$maxz )
 while ( $#queue > 0 )
   set n = $queue[1]
   echo "Current: $n"
-  echo $n >> visited
+  echo "$n" >> visited
   set queue = ( `echo $queue[2-]` )
   #echo "checkif3" 
   set current_x = `echo $n | sed 's/,.*//g'` 
@@ -37,23 +37,28 @@ while ( $#queue > 0 )
      set front = "${current_x},${current_y},`expr $current_z - 1`"
      set back = "${current_x},${current_y},`expr $current_z + 1`"
      #echo "check"
-     if ( `grep -- "$n" $file | wc -l | awk '{print $1}'` == 0 ) then       
+     if ( `grep -- '^'"$n"'$' $file ` == "" ) then       
         set num = 0
         #echo "Inside if"
         foreach neighbor ( "$top" "$bottom" "$left" "$right" "$front" "$back" )
             echo "Neighbor : $neighbor"
-            if ( (`grep -e '^'"${neighbor}"'$' $file | wc -l | awk '{print $1}'`) ) then
+            if ( `echo "$neighbor" | awk -F ',' '{print NF}'` < 3 ) then
+               echo $neighbor
+            endif
+            if ( (`grep -e '^'"${neighbor}"'$' $file ` == "${neighbor}") ) then
 #!( `grep '^'"${neighbor}"'$' visited | wc -l | awk '{print $1}'`) && 
                @ num = ( $num + 1 )
+               echo "$neighbor" >> surface_cubes
             endif
         end
         @ total = ( $total + $num )
      endif
      foreach neighbor ( "$top" "$bottom" "$left" "$right" "$front" "$back" )
-        set neighbor_x = `echo $neighbor | sed 's/,.*//g'` 
-        set neighbor_y = `echo $neighbor | grep -o ',[^,]*,' | sed 's/,//g'`
-        set neighbor_z = `echo $neighbor | sed 's/.*,//g'`
-        if ( ($neighbor_x <= $maxx) && ($neighbor_x >= $minx) && ($neighbor_y <= $maxy) && ($neighbor_y >= $miny) && ($neighbor_z <= $maxz) && ($neighbor_z >= $minz)  && !( `grep '^'"${neighbor}"'$' visited | wc -l | awk '{print $1}'`) && ( `echo $queue | sed 's/ /\n/g' | grep '^'"${neighbor}"'$' | wc -l | awk '{print $1}'` == 0 ) && !( `grep '^'"$neighbor"'$' $file | wc -l | awk '{print $1}'` ) )  then
+        set neighbor_x = `echo "$neighbor" | awk -F ',' '{print $1}'`
+        set neighbor_y = `echo "$neighbor" | awk -F ',' '{print $2}'`
+        set neighbor_z = `echo "$neighbor" | awk -F ',' '{print $3}'`
+        echo "Check: $neighbor_x $neighbor_y $neighbor_z"
+        if ( ($neighbor_x <= $maxx) && ($neighbor_x >= $minx) && ($neighbor_y <= $maxy) && ($neighbor_y >= $miny) && ($neighbor_z <= $maxz) && ($neighbor_z >= $minz)  && ( `grep '^'"${neighbor}"'$' visited | sort | uniq` != "${neighbor}" ) && ( `echo $queue | sed 's/ /\n/g' | grep '^'"${neighbor}"'$' | sort | uniq` != "${neighbor}" ) && ( `grep '^'"$neighbor"'$' $file | sort | uniq` != "${neighbor}") )  then
 #
            set queue = ( $queue $neighbor )
         endif

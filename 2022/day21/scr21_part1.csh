@@ -2,7 +2,8 @@
 
 
 set file = $argv[1]
-set var_to_resolve = ( "root" )
+set to_resolve = $argv[2]
+set var_to_resolve = ( "$to_resolve" )
 echo $var_to_resolve
 
 while ( $#var_to_resolve > 0 )

@@ -69,6 +69,7 @@ for i in numbers:
         for i in winners:
             del boards[i]
     elif winners:
+        print([boards[i] for i in boards.keys()])
         res = i * max([score(boards[i]) for i in boards.keys()])
         break
 

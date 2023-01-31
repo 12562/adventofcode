@@ -6,12 +6,14 @@ set num_rows = `cat $file | wc -l`
 set num_cols = `cat $file | awk -F '' 'END {print NF}'`
 set num_cols_minus_two = `cat $file | awk -F '' 'END {print NF}' | sed 's/$/ - 2/g' | bc`
 set num_cols_minus_one = `cat $file | awk -F '' 'END {print NF}' | sed 's/$/ - 1/g' | bc`
-set num_zeros = `grep -c -o 0 $file`
+set sum = `grep -o 0 $file | wc -l`
 set max = `echo "$num_rows * $num_cols" | bc`
 set num = 1
+set indexes = ()
 while ( $num <= $max )
   set value = `cat $file | sed 's/ */\n/g' | grep -v '^$'  | sed "$num q;d"`
   if ( $value != 9 && $value != 0 ) then
+     set greater = "[${value}-9]"
      set starting = `echo "$num - $num_cols" | bc`
      set ending = `echo "$num + $num_cols" | bc`
      if ( $starting < 1 ) then
@@ -27,45 +29,76 @@ while ( $num <= $max )
         set ending = $num
      endif
      set str = ( `cat $file | sed 's/ */\n/g' | grep -v '^$' | sed -n "${starting},${ending} p"` )
-     echo $str | sed 's/ *//g' >> runtime_file
+     set str = `echo $str | sed 's/ *//g'`
+     if ( $num == 1 ) then
+        set to_add = `echo $str |  grep -c "${value}${greater}.\{${num_cols_minus_two}\}$greater"`
+     else if ( $num == $num_cols ) then
+        set to_add = `echo $str |  grep -c "${greater}${value}.\{${num_cols_minus_one}\}$greater"`
+     else if ( $num == `echo "($num_rows - 1) * $num_cols + 1" | bc` ) then
+        set to_add = `echo $str |  grep -c "$greater.\{${num_cols_minus_one}\}${value}${greater}"`
+     else if ( $num == $max ) then
+        set to_add = `echo $str |  grep -c "$greater.\{${num_cols_minus_two}\}${greater}${value}"`
+     else if ( $num < $num_cols ) then
+        set to_add = `echo $str |  grep -c "${greater}${value}${greater}.\{${num_cols_minus_two}\}$greater"`
+     else if ( `echo "$num % $num_cols" | bc` == 1 ) then
+        set to_add = `echo $str |  grep -c "$greater.\{${num_cols_minus_one}\}${value}${greater}.\{${num_cols_minus_two}\}$greater"`
+     else if ( `echo "$num % $num_cols" | bc` == 0 ) then
+        set to_add = `echo $str |  grep -c "$greater.\{${num_cols_minus_two}\}${greater}${value}.\{${num_cols_minus_one}\}$greater"`
+     else if ( `echo "($num / $num_cols) + 1" | bc` == $num_rows ) then
+        set to_add = `echo $str |  grep -c "$greater.\{${num_cols_minus_two}\}${greater}${value}${greater}"`
+     else
+        set to_add = `echo $str |  grep -c "$greater.\{${num_cols_minus_two}\}${greater}${value}${greater}.\{${num_cols_minus_two}\}$greater"`
+     endif
+     if ( $to_add ) then
+        @ sum = ( $sum + $value + 1 )
+        set indexes = ( $indexes $num )
+     endif
+  else if ( $value == 0 ) then
+     set indexes = ( $indexes $num )
   endif
   @ num = ( $num + 1 )
 end
 
-set ctr = 1
-set ctr2 = 1
-set indexes = ( 0 0 0 0 0 0 0 0 )
-foreach num ( `cat $file | sed 's/ */\n/g' | grep -v '^$'`)
-  echo $num
-  if ( ($num != 9)  && ($num != 0) ) then
-     #set numplusone = `expr $num + 1`
-     set greater = "[${num}-9]"
-     if ( $ctr == 1 ) then
-        set to_add = `sed "$ctr2 q;d" runtime_file |  grep -o "${num}${greater}.\{${num_cols_minus_two}\}$greater" | wc -l`
-     else if ( $ctr == $num_cols ) then
-        set to_add = `sed "$ctr2 q;d"  runtime_file |  grep -o "${greater}${num}.\{${num_cols_minus_one}\}$greater" | wc -l`
-     else if ( $ctr == `echo "($num_rows - 1) * $num_cols + 1" | bc` ) then
-        set to_add = `sed "$ctr2 q;d"  runtime_file |  grep -o "$greater.\{${num_cols_minus_one}\}${num}${greater}" | wc -l`
-     else if ( $ctr == $max ) then
-        set to_add = `sed "$ctr2 q;d"  runtime_file |  grep -o "$greater.\{${num_cols_minus_two}\}${greater}${num}" | wc -l`
-     else if ( $ctr < $num_cols ) then
-        set to_add = `sed "$ctr2 q;d"  runtime_file |  grep -o "${greater}${num}${greater}.\{${num_cols_minus_two}\}$greater" | wc -l`
-     else if ( `echo "$ctr % $num_cols" | bc` == 1 ) then
-        set to_add = `sed "$ctr2 q;d"  runtime_file |  grep -o "$greater.\{${num_cols_minus_one}\}${num}${greater}.\{${num_cols_minus_two}\}$greater" | wc -l`
-     else if ( `echo "$ctr % $num_cols" | bc` == 0 ) then
-        set to_add = `sed "$ctr2 q;d"  runtime_file |  grep -o "$greater.\{${num_cols_minus_two}\}${greater}${num}.\{${num_cols_minus_one}\}$greater" | wc -l`
-     else if ( `echo "($ctr / $num_cols) + 1" | bc` == $num_rows ) then
-        set to_add = `sed "$ctr2 q;d"  runtime_file |  grep -o "$greater.\{${num_cols_minus_two}\}${greater}${num}${greater}" | wc -l`
+echo "Part 1 : $sum"
+set basin_size = ()
+foreach index ( $indexes )
+   set queue = ( $index )
+   set visited = ()
+   set sum = 0
+   while ( $#queue )
+     set current = $queue[1]
+     set visited = ( $current $visited )
+     @ sum += 1
+     set queue = `echo $queue[2-]`
+     set neighbors = ()
+     set true_neighbors = ()
+     if ( $current == 1 ) then
+        set neighbors = ( 2 `echo "$current + $num_cols" | bc` )
+     else if ( $current == $num_cols ) then
+        set neighbors = ( `echo "$current - 1" | bc` `echo "$current + $num_cols" | bc` )
+     else if ( $current == `echo "($num_rows - 1) * $num_cols + 1" | bc` ) then
+        set neighbors = ( `echo "$current - $num_cols" | bc` `echo "$current + 1" | bc` )
+     else if ( $current == $max ) then
+        set neighbors = ( `echo "$current - $num_cols" | bc` `echo "$current - 1" | bc` )
+     else if ( $current < $num_cols ) then
+        set neighbors = ( `echo "$current - 1" | bc` `echo "$current + 1" | bc` `echo "$current + $num_cols" | bc` )
+     else if ( `echo "$current % $num_cols" | bc` == 1 ) then
+        set neighbors = ( `echo "$current - $num_cols" | bc` `echo "$current + 1" | bc` `echo "$current + $num_cols" | bc` )
+     else if ( `echo "$current % $num_cols" | bc` == 0 ) then
+        set neighbors = ( `echo "$current - $num_cols" | bc` `echo "$current - 1" | bc` `echo "$current + $num_cols" | bc` )
+     else if ( `echo "($current / $num_cols) + 1" | bc` == $num_rows ) then
+        set neighbors = ( `echo "$current - $num_cols" | bc` `echo "$current - 1" | bc` `echo "$current + 1" | bc` )
      else
-        set to_add = `sed "$ctr2 q;d"  runtime_file |  grep -o "$greater.\{${num_cols_minus_two}\}${greater}${num}${greater}.\{${num_cols_minus_two}\}$greater" | wc -l`
+        set neighbors = ( `echo "$current - $num_cols" | bc` `echo "$current - 1" | bc` `echo "$current + 1" | bc` `echo "$current + $num_cols" | bc` )
      endif
-     set tmp = $indexes[$num]
-     set indexes[$num] = `expr $tmp + $to_add`
-     @ ctr2 = ( $ctr2 + 1 )
-  endif
-  @ ctr = ( $ctr + 1 )
+     foreach neighbor ( $neighbors )
+        set neighbor_value = `cat $file | sed 's/ */\n/g' | grep -v '^$'  | sed "$neighbor q;d"`
+        if ( ($neighbor_value != 9 ) && (`echo $visited | sed 's/ /\n/g' | grep -c "^$neighbor"'$'` == 0 ) && (`echo $queue | sed 's/ /\n/g' | grep -c "^$neighbor"'$'` == 0 )) then
+           set true_neighbors = ( $true_neighbors $neighbor )
+        endif
+     end
+     set queue = ( $queue $true_neighbors ) 
+   end
+   set basin_size = ( $basin_size $sum )
 end
-echo "ctr: $ctr :: ctr2 : $ctr2"
-echo "NUm zeros: $num_zeros"
-echo $indexes
-expr $num_zeros + 2 \* $indexes[1] + 3 \* $indexes[2] + 4 \* $indexes[3] + 5 \* $indexes[4] + 6 \* $indexes[5] + 7 \* $indexes[6] + 8 \* $indexes[7] + 9 \* $indexes[8]
+echo "Part 2 : "`echo $basin_size | sed 's/ /\n/g' | sort -n | tail -n 3 | sed 'N;N; s/\n/ * /g' | bc`

@@ -37,7 +37,6 @@ while ( $#stack )
      end
   endif
 end
-echo "$pattern"
 echo "Part 1:"`cat lst_of_paths | grep -v "$pattern" | wc -l`
 echo "Part 2:"`cat lst_of_paths | wc -l`
 rm -f lst_of_paths

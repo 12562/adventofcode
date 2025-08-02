@@ -1,0 +1,170 @@
+#! /usr/bin/tcsh
+
+set file = "$1"
+set debug = "$2"
+set wd = `cat $file | awk -F '' 'END {print NF}'`
+set ht = `cat $file | awk -F '' 'END {print NR}'`
+
+set horizontal_left_to_right = `grep -o XMAS $file | wc -l`
+if ( $debug ) then
+   echo "Horizontal left to right:"
+   grep -n --color XMAS $file
+   
+   echo "****"
+endif
+
+set horizontal_right_to_left = `cat $file | rev | grep -o XMAS  | wc -l`
+if ( $debug ) then
+   echo "Horizontal right to left:"
+   cat $file | rev | grep -n --color XMAS
+   
+   echo "****"
+endif
+
+set vertical_top_to_bottom = `cat $file | sed 's/ */ /g' | datamash -t ' ' transpose | sed 's/ //g' | grep -v '^$' | grep -o XMAS | wc -l`
+if ( $debug ) then
+   echo "Vertical top to bottom:"
+   cat $file | sed 's/ */ /g' | datamash -t ' ' transpose | sed 's/ //g' | grep -v '^$' | grep -n --color XMAS
+   
+   echo "****"
+endif
+
+set vertical_bottom_to_top = `cat $file | sed 's/ */ /g' | datamash -t ' ' transpose | rev  | sed 's/ //g' | grep -v '^$' | grep -o XMAS | wc -l`
+if ( $debug ) then
+   echo "Vertical bottom to top:"
+   cat $file | sed 's/ */ /g' | datamash -t ' ' transpose | rev  | sed 's/ //g' | grep -v '^$' | grep -n --color XMAS 
+   
+   echo "****"
+endif
+
+set diagonal_bottomleft_to_topright = `cat $file | sed ':a; N; s/\n//g;ta' | sed 's/ */ /g' | awk -v h=$ht -v w=$wd '{for (i=1;i<=h+w-1;i++) { if(i<=h) { S=i; N=1; numelems=S} else {S=h; N=i-h+1; numelems=S-N+1}; printf "**%2d**: ",numelems; for (j=S;j>=N;j--) { printf $(i + (j - 1) * (w-1))"" }; print ""}}' | grep -o XMAS | wc -l`
+if ( $debug ) then
+   echo "Diagonal bottom-left to top-right:"
+   cat $file | sed ':a; N; s/\n//g;ta' | sed 's/ */ /g' | awk -v h=$ht -v w=$wd '{for (i=1;i<=h+w-1;i++) { if(i<=h) { S=i; N=1; numelems=S} else {S=h; N=i-h+1; numelems=S-N+1}; printf "**%2d**: ",numelems; for (j=S;j>=N;j--) { printf $(i + (j - 1) * (w-1))"" }; print ""}}' 
+   cat $file | sed ':a; N; s/\n//g;ta' | sed 's/ */ /g' | awk -v h=$ht -v w=$wd '{for (i=1;i<=h+w-1;i++) { if(i<=h) { S=i; N=1; numelems=S} else {S=h; N=i-h+1; numelems=S-N+1}; printf "**%2d**: ",numelems; for (j=S;j>=N;j--) { printf $(i + (j - 1) * (w-1))"" }; print ""}}' | grep -n --color XMAS
+   
+   echo "****"
+endif
+
+set diagonal_topright_to_bottomleft = `cat $file | sed ':a; N; s/\n//g;ta' | sed 's/ */ /g' | awk -v h=$ht -v w=$wd '{for (i=1;i<=h+w-1;i++) { if(i<=h) { S=1; N=i; numelems=N} else {S=i-h+1; N=h; numelems=N-S+1}; printf "**%2d**: ",numelems; for (j=S;j<=N;j++) { printf $(i + (j - 1) * (w-1))"" }; print ""}}' | grep -o XMAS | wc -l`
+if ( $debug ) then
+   echo "Diagonal top-right to bottom-left:"
+   cat $file | sed ':a; N; s/\n//g;ta' | sed 's/ */ /g' | awk -v h=$ht -v w=$wd '{for (i=1;i<=h+w-1;i++) { if(i<=h) { S=1; N=i; numelems=N } else {S=i-h+1; N=h; numelems=N-S+1}; printf "**%2d**: ",numelems; for (j=S;j<=N;j++) { printf $(i + (j - 1) * (w-1))"" }; print ""}}'
+   cat $file | sed ':a; N; s/\n//g;ta' | sed 's/ */ /g' | awk -v h=$ht -v w=$wd '{for (i=1;i<=h+w-1;i++) { if(i<=h) { S=1; N=i; numelems=N } else {S=i-h+1; N=h; numelems=N-S+1}; printf "**%2d**: ",numelems; for (j=S;j<=N;j++) { printf $(i + (j - 1) * (w-1))"" }; print ""}}' | grep -n --color XMAS
+   
+   echo "****"
+endif
+
+set diagonal_bottomright_to_topleft = `cat $file | rev | sed ':a; N; s/\n//g;ta' | sed 's/ */ /g' | awk -v h=$ht -v w=$wd '{for (i=1;i<=h+w-1;i++) { if(i<=h) { S=i; N=1; numelems=S} else {S=h; N=i-h+1; numelems=S-N+1}; printf "**%2d**: ",numelems; for (j=S;j>=N;j--) { printf $(i + (j - 1) * (w-1))"" }; print ""}}' | grep -o XMAS | wc -l`
+if ( $debug ) then
+   echo "Diagonal bottom-right to top-left:"
+   cat $file | rev | sed ':a; N; s/\n//g;ta' | sed 's/ */ /g' | awk -v h=$ht -v w=$wd '{for (i=1;i<=h+w-1;i++) { if(i<=h) { S=i; N=1; numelems=S } else {S=h; N=i-h+1; numelems=S-N+1}; printf "**%2d**: ",numelems; for (j=S;j>=N;j--) { printf $(i + (j - 1) * (w-1))"" }; print ""}}'
+   cat $file | rev | sed ':a; N; s/\n//g;ta' | sed 's/ */ /g' | awk -v h=$ht -v w=$wd '{for (i=1;i<=h+w-1;i++) { if(i<=h) { S=i; N=1; numelems=S } else {S=h; N=i-h+1; numelems=S-N+1}; printf "**%2d**: ",numelems; for (j=S;j>=N;j--) { printf $(i + (j - 1) * (w-1))"" }; print ""}}' | grep -n --color XMAS 
+   
+   echo "****"
+endif
+
+set diagonal_topleft_to_bottomright = `cat $file | rev | sed ':a; N; s/\n//g;ta' | sed 's/ */ /g' | awk -v h=$ht -v w=$wd '{for (i=1;i<=h+w-1;i++) { if(i<=h) { S=1; N=i; numelems=N } else {S=i-h+1; N=h; numelems=N-S+1}; printf "**%2d**: ",numelems; for (j=S;j<=N;j++) { printf $(i + (j - 1) * (w-1))"" }; print ""}}' | grep -o XMAS | wc -l`
+if ( $debug ) then
+   echo "Diagonal top-left to bottom-right:"
+   cat $file | rev | sed ':a; N; s/\n//g;ta' | sed 's/ */ /g' | awk -v h=$ht -v w=$wd '{for (i=1;i<=h+w-1;i++) { if(i<=h) { S=1; N=i; numelems=N } else {S=i-h+1; N=h; numelems=N-S+1}; printf "**%2d**: ",numelems; for (j=S;j<=N;j++) { printf $(i + (j - 1) * (w-1))"" }; print ""}}'
+   cat $file | rev | sed ':a; N; s/\n//g;ta' | sed 's/ */ /g' | awk -v h=$ht -v w=$wd '{for (i=1;i<=h+w-1;i++) { if(i<=h) { S=1; N=i; numelems=N } else {S=i-h+1; N=h; numelems=N-S+1}; printf "**%2d**: ",numelems; for (j=S;j<=N;j++) { printf $(i + (j - 1) * (w-1))"" }; print ""}}' | grep -n --color XMAS 
+   
+   echo "****"
+endif
+
+echo "Task1: `expr $horizontal_left_to_right + $horizontal_right_to_left + $vertical_top_to_bottom + $vertical_bottom_to_top + $diagonal_bottomleft_to_topright + $diagonal_topright_to_bottomleft + $diagonal_bottomright_to_topleft + $diagonal_topleft_to_bottomright`"
+
+
+echo "bottomleft to topright"
+cat $file | sed ':a; N; s/\n//g;ta' | sed 's/ */ /g' | awk -v h=$ht -v w=$wd '{for (i=1;i<=h+w-1;i++) { if(i<=h) { S=i; N=1; numelems=S} else {S=h; N=i-h+1; numelems=S-N+1}; for (j=S;j>=N;j--) { printf $(i + (j - 1) * (w-1))"" }; print ""}}' | grep -n --color MAS | sed 's/\([XMAS]\)\|:/\1 /g' | awk -v h=$ht -v w=$wd '{for(i=1;i<=NF;i++) {if ($i == "M" && $(i+1)=="A" && $(i+2)=="S") { if ($1 <= h) {print($1 + 1 - i","i)} else {print(h+1-i","$1-h+i)} }}}'
+echo "****"
+echo "topright to bottomleft"
+cat $file | sed ':a; N; s/\n//g;ta' | sed 's/ */ /g' | awk -v h=$ht -v w=$wd '{for (i=1;i<=h+w-1;i++) { if(i<=h) { S=1; N=i; numelems=N} else {S=i-h+1; N=h; numelems=N-S+1}; for (j=S;j<=N;j++) { printf $(i + (j - 1) * (w-1))"" }; print ""}}' | grep -n --color MAS | sed 's/\([XMAS]\)\|:/\1 /g' | awk -v h=$ht -v w=$wd '{for(i=1;i<=NF;i++) {if ($i == "M" && $(i+1)=="A" && $(i+2)=="S") { if($1 <= w) {print(i","$1 + 1 - i)} else {print($0","$1-w+i","w+1-i)} }}}'
+echo "****"
+echo "bottomright to topleft"
+cat $file | rev | sed ':a; N; s/\n//g;ta' | sed 's/ */ /g' | awk -v h=$ht -v w=$wd '{for (i=1;i<=h+w-1;i++) { if(i<=h) { S=i; N=1; numelems=S} else {S=h; N=i-h+1; numelems=S-N+1}; printf "**%2d**: ",numelems; for (j=S;j>=N;j--) { printf $(i + (j - 1) * (w-1))"" }; print ""}}' | grep -n --color MAS | sed 's/\([XMAS]\)\|:/\1 /g' | awk -v h=$ht -v w=$wd '{for(i=1;i<=NF;i++) {if ($i == "M" && $(i+1)=="A" && $(i+2)=="S") { if($1 <= w) {print(h + 1 - i","$1 + 1 - i)} else {print(2*h-$1-$i+1","w-$i+1)} }}}'
+echo "****"
+echo "topleft to bottomright"
+cat $file | rev | sed ':a; N; s/\n//g;ta' | sed 's/ */ /g' | awk -v h=$ht -v w=$wd '{for (i=1;i<=h+w-1;i++) { if(i<=h) { S=1; N=i; numelems=N } else {S=i-h+1; N=h; numelems=N-S+1}; printf "**%2d**: ",numelems; for (j=S;j<=N;j++) { printf $(i + (j - 1) * (w-1))"" }; print ""}}' | grep -n --color MAS | sed 's/\([XMAS]\)\|:/\1 /g' | awk -v h=$ht -v w=$wd '{for(i=1;i<=NF;i++) {if ($i == "M" && $(i+1)=="A" && $(i+2)=="S") { if($1<=w) { print(i","w - $1 + $i)} else {print($1-h+$i","i)} }}}'
+
+echo $vertices
+echo "****"
+
+#echo $wd
+#echo $ht
+#echo "hi"
+#set horizontal = ` 
+#####cat $1 | grep -o "XMAS\|SAMX\|S\(AMXMAS\)\+\|X\(MASAMX\)\+\|S\(AMXMASAMX\)\+\|X\(MASAMXMAS\)\+" | sed "s/MASAMX/MAS\nAMX/g" | sed "s/AMXMAS/AMX\nMAS/g" > out #| grep -v '^$' | wc -l`
+#set vertical = ` 
+#####cat $1 | sed 's/ */ /g' | datamash -t ' ' transpose | sed 's/ *//g' | grep -v '^$' | grep -o "XMAS\|SAMX\|S\(AMXMAS\)\+\|X\(MASAMX\)\+\|S\(AMXMASAMX\)\+\|X\(MASAMXMAS\)\+" | sed "s/MASAMX/MAS\nAMX/g" | sed "s/AMXMAS/AMX\nMAS/g" >> out #| grep -v '^$' | wc -l`
+#echo "hi2"
+#set rttolbdiag = ` 
+#####cat $1 | sed '{:a; N; s/\n//g; ba}' | awk -F '' -v wd=$wd '{i=wd-1; ch=wd+1; for(j=1; j<=(2*wd-1); j++) { for(k=1;k<=i;k++) {printf(" ")}; if (j<=wd) {lim=j; ch--} else {lim=(2*wd - j);ch=ch+10}; ch2=ch; for(l=0;l<lim;l++){printf("%s ",$ch2); ch2=ch2+wd+1}; for(k=1; k<i;k++) {printf(" ")}; printf("\n"); if (j<wd) {i--} else {++i}}}' | grep -o "X M A S\|S A M X\|S\( A M X M A S\)\+\|X\( M A S A M X\)\+\|S\( A M X M A S A M X\)\+\|X\( M A S A M X M A S\)" | sed "s/M A S A M X/M A S\nA M X/g" | sed "s/A M X M A S/A M X\nM A S/g" >> out # | grep -v '^$' | wc -l`
+#echo "hi4"
+#echo "*****************************************************\n\n\n\n"
+#set lttorbdiag = ` 
+#####cat $1 | sed '{:a; N; s/\n//g; ba}' | awk -F '' -v wd=$wd '{i=wd-1; ch=0; for(j=1; j<=(2*wd-1); j++) { for(k=1;k<=i;k++) {printf(" ")}; if (j<=wd) {lim=j; ch++} else {lim=(2*wd - j);ch=ch+10}; ch2=ch; for(l=0;l<lim;l++){printf("%s ",$ch2); ch2=ch2+wd-1}; for(k=1; k<i;k++) {printf(" ")}; printf("\n"); if (j<wd) {i--} else {++i}}}' | grep -o "X M A S\|S A M X\|S\( A M X M A S\)\+\|X\( M A S A M X\)\+\|S\( A M X M A S A M X\)\+\|X\( M A S A M X M A S\)" | sed "s/M A S A M X/M A S\nA M X/g" | sed "s/A M X M A S/A M X\nM A S/g" >> out #| grep -v '^$' | wc -l`
+
+#echo "hi3"
+#echo "$horizontal"
+#echo "$vertical"
+#echo "$lttorbdiag"
+#echo "$rttolbdiag"
+##echo "$horizontal + $vertical + $lttorbdiag + $rttolbdiag" 
+#echo "$horizontal + $vertical + $lttorbdiag + $rttolbdiag" | bc -l
+#
+#set row = 1
+#set col = 1
+#
+#set queue = ( ${row}_${col}_`cat $1 | awk -F '' -v r=$row -v c=$col 'FNR==r {printf("%s",$c)}'`_`cat $1 | awk -F '' -v r=$row -v c=$col 'FNR==r {printf("%s",$c)}'` )
+#set combinations_found = 0
+#
+#echo $queue
+#while ( $#queue )
+#  echo "hi"
+#  set current = $queue[1]
+#  set cur_row = `echo $queue[1] | awk -F '_' '{print $1}'` 
+#  set cur_col = `echo $queue[1] | awk -F '_' '{print $2}'` 
+#  set cur_cha = `echo $queue[1] | awk -F '_' '{print $3}'`
+#  set cur_com = `echo $queue[1] | awk -F '_' '{print $4}'`
+#
+#  set queue = `echo $queue[2-]`
+#
+#  echo "hi2"
+#  if ( `echo $cur_com | fold -w1 | wc -l` >= 4 ) then
+#  echo "hi5"
+#     if ( "$cur_com" == "XMAS" ) then
+#        @ combinations_found = ( $combinations_found + 1 )
+#     endif
+#  else
+#  echo "hi4"
+#     # cat $1 | awk -F '' -v row=$cur_row -v col=$cur_col 'FNR==row {print($col))'` 
+#     set neigh_cols = ( `echo "$cur_col - 1" | bc -l` $cur_col `echo "$cur_col + 1" | bc -l` )
+#     set neigh_rows = ( `echo "$cur_row - 1" | bc -l` $cur_row `echo "$cur_row + 1" | bc -l` )  
+# echo "hi6"
+#     set neighbors = ()
+#     echo "hi11"
+#     foreach cl ( $neigh_cols )
+#         if ( $cl > 0 ) then
+#            foreach ro ( $neigh_rows )
+#                if ( ($ro > 0) && !(($cl == $cur_col) && ($ro == $cur_row)) ) then
+#                   set neigh_cha = `cat $1 | awk -F '' -v row=$ro -v col=$col 'FNR==row {print($col)}'`
+#                   #if ( (`echo $cur_com | fold -w1 | wc -l` == 1 && $cur_com == "X") || (`echo $cur_com | fold -w1 | wc -l` == 2 && $cur_com == "XM") || (`echo $cur_com | fold -w1 | wc -l` == 3 && $cur_com == "XMA") ) then
+#                      set neighbors = ( $neighbors ${ro}_${cl}_${neigh_cha}_${cur_com}${neigh_cha} )
+#                   #else if ( $neigh_cha == "X" ) then
+#                   #   set neighbors = ( $neighbors ${ro}_${cl}_${neigh_cha}_${neigh_cha} )
+#                   #endif
+#                endif
+#            end
+#         endif
+#      end
+#   echo "hi7"      
+#   echo $neighbors
+#  echo $queue
+#      set queue = ( $queue $neighbors )
+#  endif     
+#  echo "hi3"
+#  echo $queue
+#end
+#echo $combinations_found

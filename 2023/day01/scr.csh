@@ -1,5 +1,4 @@
 
-
 set file = "$argv[1]"
 echo "Part 1: `cat $file | sed 's/[^0-9]*\([0-9]\).*\([0-9]\).*/\1\2/g' | sed '/[a-zA-Z]/ s/.*\([0-9]\).*/\1\1/g' | datamash  sum 1`"
 

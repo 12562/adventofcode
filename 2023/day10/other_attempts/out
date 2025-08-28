@@ -1,0 +1,1803 @@
+20 10
+First: 93
+1 :: 92 :: J
+
+2 :: 73 :: L
+
+3 :: 94 :: 7
+94:93:1
+4 :: 113 :: J
+94:93:1 113:93:1
+2 : 94:93:1 113:93:1
+Set 94 to be loop element
+. F - - - - 7 F 7 F 7 F 7 F - 7 . . . . . | F - - 7 | | | | | | | | F J . . . . . | | . F J | | | | | | | | L 7 . . . . F J L 7 L 7 L J L J | | L J . L - 7 . . L - - J . L 7 . . . L J 0 0 F - 7 L 7 . . . . . F - J . . F 7 F J | L 7 L 7 L 7 . . . . L 7 . F 7 | | L 7 | . L 7 L 7 | . . . . . | F J L J | F J | F 7 | . L J . . . . F J L - 7 . | | . | | | | . . . . . . . L - - - J . L J . L J L J . . .
+Current: 94, Previous: 93, Stack: 113:93:1 1
+Current: 94, Previous: 93, Current Symbol: 7
+fNS: S
+sNS: |
+CHECK1 0 1 1 1
+CHECK2 95:1 74:1
+firstNeigh:93 secndNeigh:114
+thirdNeighSymblType:-1
+forthNeighSymblType: -1
+Next: 114
+>> Stack: 114:94:2 113:93:1 :: 2
+Set 114 to be loop element
+. F - - - - 7 F 7 F 7 F 7 F - 7 . . . . . | F - - 7 | | | | | | | | F J . . . . . | | . F J | | | | | | | | L 7 . . . . F J L 7 L 7 L J L J | | L -1 . L - 7 . . L - - J . L 7 . . . L J 0 0 -1 - 7 L 7 . . . . . F - J . . F 7 F J 0 L 7 L 7 L 7 . . . . L 7 . F 7 | | L 7 | . L 7 L 7 | . . . . . | F J L J | F J | F 7 | . L J . . . . F J L - 7 . | | . | | | | . . . . . . . L - - - J . L J . L J L J . . .
+Current: 114, Previous: 94, Stack: 113:93:1 1
+Current: 114, Previous: 94, Current Symbol: |
+fNS: 7
+sNS: |
+CHECK1 1 1 1 1
+CHECK2 113:1 115:1
+firstNeigh:94 secndNeigh:134
+thirdNeighSymblType:1
+forthNeighSymblType: -1
+Next: 134
+>> Stack: 134:114:3 113:93:1 :: 2
+Set 134 to be loop element
+. F - - - - 7 F 7 F 7 F 7 F - 7 . . . . . | F - - 7 | | | | | | | | F J . . . . . | | . F J | | | | | | | | L 7 . . . . F J L 7 L 7 L J L J | | L -1 . L - 7 . . L - - J . L 7 . . . L J 0 0 -1 - 7 L 7 . . . . . F - J . . F 7 F 1 0 -1 7 L 7 L 7 . . . . L 7 . F 7 | | L 7 0 . L 7 L 7 | . . . . . | F J L J | F J | F 7 | . L J . . . . F J L - 7 . | | . | | | | . . . . . . . L - - - J . L J . L J L J . . .
+Current: 134, Previous: 114, Stack: 113:93:1 1
+Current: 134, Previous: 114, Current Symbol: |
+fNS: |
+sNS: |
+CHECK1 1 1 1 1
+CHECK2 133:1 135:1
+firstNeigh:114 secndNeigh:154
+thirdNeighSymblType:1
+forthNeighSymblType: -1
+Next: 154
+>> Stack: 154:134:4 113:93:1 :: 2
+Set 154 to be loop element
+. F - - - - 7 F 7 F 7 F 7 F - 7 . . . . . | F - - 7 | | | | | | | | F J . . . . . | | . F J | | | | | | | | L 7 . . . . F J L 7 L 7 L J L J | | L -1 . L - 7 . . L - - J . L 7 . . . L J 0 0 -1 - 7 L 7 . . . . . F - J . . F 7 F 1 0 -1 7 L 7 L 7 . . . . L 7 . F 7 | | L 1 0 -1 L 7 L 7 | . . . . . | F J L J | F J 0 F 7 | . L J . . . . F J L - 7 . | | . | | | | . . . . . . . L - - - J . L J . L J L J . . .
+Current: 154, Previous: 134, Stack: 113:93:1 1
+Current: 154, Previous: 134, Current Symbol: |
+fNS: |
+sNS: |
+CHECK1 1 1 1 1
+CHECK2 153:1 155:1
+firstNeigh:134 secndNeigh:174
+thirdNeighSymblType:1
+forthNeighSymblType: -1
+Next: 174
+>> Stack: 174:154:5 113:93:1 :: 2
+Set 174 to be loop element
+. F - - - - 7 F 7 F 7 F 7 F - 7 . . . . . | F - - 7 | | | | | | | | F J . . . . . | | . F J | | | | | | | | L 7 . . . . F J L 7 L 7 L J L J | | L -1 . L - 7 . . L - - J . L 7 . . . L J 0 0 -1 - 7 L 7 . . . . . F - J . . F 7 F 1 0 -1 7 L 7 L 7 . . . . L 7 . F 7 | | L 1 0 -1 L 7 L 7 | . . . . . | F J L J | F 1 0 -1 7 | . L J . . . . F J L - 7 . | | . 0 | | | . . . . . . . L - - - J . L J . L J L J . . .
+Current: 174, Previous: 154, Stack: 113:93:1 1
+Current: 174, Previous: 154, Current Symbol: |
+fNS: |
+sNS: L
+CHECK1 1 1 1 1
+CHECK2 173:1 175:1
+firstNeigh:154 secndNeigh:194
+thirdNeighSymblType:1
+forthNeighSymblType: -1
+Next: 194
+>> Stack: 194:174:6 113:93:1 :: 2
+Set 194 to be loop element
+. F - - - - 7 F 7 F 7 F 7 F - 7 . . . . . | F - - 7 | | | | | | | | F J . . . . . | | . F J | | | | | | | | L 7 . . . . F J L 7 L 7 L J L J | | L -1 . L - 7 . . L - - J . L 7 . . . L J 0 0 -1 - 7 L 7 . . . . . F - J . . F 7 F 1 0 -1 7 L 7 L 7 . . . . L 7 . F 7 | | L 1 0 -1 L 7 L 7 | . . . . . | F J L J | F 1 0 -1 7 | . L J . . . . F J L - 7 . | | 1 0 -1 | | . . . . . . . L - - - J . L J . 0 J L J . . .
+Current: 194, Previous: 174, Stack: 113:93:1 1
+Current: 194, Previous: 174, Current Symbol: L
+fNS: |
+sNS: J
+CHECK1 1 1 0 1
+CHECK2 214:-1 193:1
+firstNeigh:174 secndNeigh:195
+forthNeighSymblType: 1
+Next: 195
+>> Stack: 195:194:7 113:93:1 :: 2
+Set 195 to be loop element
+. F - - - - 7 F 7 F 7 F 7 F - 7 . . . . . | F - - 7 | | | | | | | | F J . . . . . | | . F J | | | | | | | | L 7 . . . . F J L 7 L 7 L J L J | | L -1 . L - 7 . . L - - J . L 7 . . . L J 0 0 -1 - 7 L 7 . . . . . F - J . . F 7 F 1 0 -1 7 L 7 L 7 . . . . L 7 . F 7 | | L 1 0 -1 L 7 L 7 | . . . . . | F J L J | F 1 0 -1 7 | . L J . . . . F J L - 7 . | | 1 0 -1 | | . . . . . . . L - - - J . L J 1 0 0 L J . . .
+Current: 195, Previous: 194, Stack: 113:93:1 1
+Current: 195, Previous: 194, Current Symbol: J
+fNS: L
+sNS: |
+CHECK1 1 1 1 0
+CHECK2 196:1 215:-1
+firstNeigh:194 secndNeigh:175
+thirdNeighSymblType:1
+Next: 175
+>> Stack: 175:195:8 113:93:1 :: 2
+Set 175 to be loop element
+. F - - - - 7 F 7 F 7 F 7 F - 7 . . . . . | F - - 7 | | | | | | | | F J . . . . . | | . F J | | | | | | | | L 7 . . . . F J L 7 L 7 L J L J | | L -1 . L - 7 . . L - - J . L 7 . . . L J 0 0 -1 - 7 L 7 . . . . . F - J . . F 7 F 1 0 -1 7 L 7 L 7 . . . . L 7 . F 7 | | L 1 0 -1 L 7 L 7 | . . . . . | F J L J | F 1 0 -1 7 | . L J . . . . F J L - 7 . | | 1 0 0 | | . . . . . . . L - - - J . L J 1 0 0 1 J . . .
+Current: 175, Previous: 195, Stack: 113:93:1 1
+Current: 175, Previous: 195, Current Symbol: |
+fNS: F
+sNS: J
+CHECK1 1 1 1 1
+CHECK2 174:0 176:1
+firstNeigh:155 secndNeigh:195
+thirdNeighSymblType:0
+forthNeighSymblType: 1
+Next: 155
+>> Stack: 155:175:9 113:93:1 :: 2
+Set 155 to be loop element
+. F - - - - 7 F 7 F 7 F 7 F - 7 . . . . . | F - - 7 | | | | | | | | F J . . . . . | | . F J | | | | | | | | L 7 . . . . F J L 7 L 7 L J L J | | L -1 . L - 7 . . L - - J . L 7 . . . L J 0 0 -1 - 7 L 7 . . . . . F - J . . F 7 F 1 0 -1 7 L 7 L 7 . . . . L 7 . F 7 | | L 1 0 -1 L 7 L 7 | . . . . . | F J L J | F 1 0 0 7 | . L J . . . . F J L - 7 . | | 1 0 0 1 | . . . . . . . L - - - J . L J 1 0 0 1 J . . .
+Current: 155, Previous: 175, Stack: 113:93:1 1
+Current: 155, Previous: 175, Current Symbol: F
+fNS: 7
+sNS: |
+CHECK1 1 0 1 1
+CHECK2 154:0 135:1
+firstNeigh:156 secndNeigh:175
+thirdNeighSymblType:0
+forthNeighSymblType: -1
+Next: 156
+>> Stack: 156:155:10 113:93:1 :: 2
+Set 156 to be loop element
+. F - - - - 7 F 7 F 7 F 7 F - 7 . . . . . | F - - 7 | | | | | | | | F J . . . . . | | . F J | | | | | | | | L 7 . . . . F J L 7 L 7 L J L J | | L -1 . L - 7 . . L - - J . L 7 . . . L J 0 0 -1 - 7 L 7 . . . . . F - J . . F 7 F 1 0 -1 7 L 7 L 7 . . . . L 7 . F 7 | | L 1 0 -1 L 7 L 7 | . . . . . | F J L J | F 1 0 0 0 | . L J . . . . F J L - 7 . | | 1 0 0 1 | . . . . . . . L - - - J . L J 1 0 0 1 J . . .
+Current: 156, Previous: 155, Stack: 113:93:1 1
+Current: 156, Previous: 155, Current Symbol: 7
+fNS: F
+sNS: |
+CHECK1 0 1 1 1
+CHECK2 157:1 136:1
+firstNeigh:155 secndNeigh:176
+thirdNeighSymblType:-1
+forthNeighSymblType: -1
+Next: 176
+>> Stack: 176:156:11 113:93:1 :: 2
+Set 176 to be loop element
+. F - - - - 7 F 7 F 7 F 7 F - 7 . . . . . | F - - 7 | | | | | | | | F J . . . . . | | . F J | | | | | | | | L 7 . . . . F J L 7 L 7 L J L J | | L -1 . L - 7 . . L - - J . L 7 . . . L J 0 0 -1 - 7 L 7 . . . . . F - J . . F 7 F 1 0 -1 7 L 7 L 7 . . . . L 7 . F 7 | | L 1 0 -1 -1 7 L 7 | . . . . . | F J L J | F 1 0 0 0 -1 . L J . . . . F J L - 7 . | | 1 0 0 0 | . . . . . . . L - - - J . L J 1 0 0 1 J . . .
+Current: 176, Previous: 156, Stack: 113:93:1 1
+Current: 176, Previous: 156, Current Symbol: |
+fNS: 7
+sNS: L
+CHECK1 1 1 1 1
+CHECK2 175:0 177:1
+firstNeigh:156 secndNeigh:196
+thirdNeighSymblType:0
+forthNeighSymblType: -1
+Next: 196
+>> Stack: 196:176:12 113:93:1 :: 2
+Set 196 to be loop element
+. F - - - - 7 F 7 F 7 F 7 F - 7 . . . . . | F - - 7 | | | | | | | | F J . . . . . | | . F J | | | | | | | | L 7 . . . . F J L 7 L 7 L J L J | | L -1 . L - 7 . . L - - J . L 7 . . . L J 0 0 -1 - 7 L 7 . . . . . F - J . . F 7 F 1 0 -1 7 L 7 L 7 . . . . L 7 . F 7 | | L 1 0 -1 -1 7 L 7 | . . . . . | F J L J | F 1 0 0 0 -1 . L J . . . . F J L - 7 . | | 1 0 0 0 -1 . . . . . . . L - - - J . L J 1 0 0 0 J . . .
+Current: 196, Previous: 176, Stack: 113:93:1 1
+Current: 196, Previous: 176, Current Symbol: L
+fNS: |
+sNS: J
+CHECK1 1 1 0 1
+CHECK2 216:-1 195:0
+firstNeigh:176 secndNeigh:197
+forthNeighSymblType: 0
+Next: 197
+>> Stack: 197:196:13 113:93:1 :: 2
+Set 197 to be loop element
+. F - - - - 7 F 7 F 7 F 7 F - 7 . . . . . | F - - 7 | | | | | | | | F J . . . . . | | . F J | | | | | | | | L 7 . . . . F J L 7 L 7 L J L J | | L -1 . L - 7 . . L - - J . L 7 . . . L J 0 0 -1 - 7 L 7 . . . . . F - J . . F 7 F 1 0 -1 7 L 7 L 7 . . . . L 7 . F 7 | | L 1 0 -1 -1 7 L 7 | . . . . . | F J L J | F 1 0 0 0 -1 . L J . . . . F J L - 7 . | | 1 0 0 0 -1 . . . . . . . L - - - J . L J 1 0 0 0 0 . . .
+Current: 197, Previous: 196, Stack: 113:93:1 1
+Current: 197, Previous: 196, Current Symbol: J
+fNS: L
+sNS: |
+CHECK1 1 1 1 0
+CHECK2 198:1 217:-1
+firstNeigh:196 secndNeigh:177
+thirdNeighSymblType:1
+Next: 177
+>> Stack: 177:197:14 113:93:1 :: 2
+Set 177 to be loop element
+. F - - - - 7 F 7 F 7 F 7 F - 7 . . . . . | F - - 7 | | | | | | | | F J . . . . . | | . F J | | | | | | | | L 7 . . . . F J L 7 L 7 L J L J | | L -1 . L - 7 . . L - - J . L 7 . . . L J 0 0 -1 - 7 L 7 . . . . . F - J . . F 7 F 1 0 -1 7 L 7 L 7 . . . . L 7 . F 7 | | L 1 0 -1 -1 7 L 7 | . . . . . | F J L J | F 1 0 0 0 -1 . L J . . . . F J L - 7 . | | 1 0 0 0 0 . . . . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 177, Previous: 197, Stack: 113:93:1 1
+Current: 177, Previous: 197, Current Symbol: |
+fNS: |
+sNS: J
+CHECK1 1 1 1 1
+CHECK2 176:0 178:1
+firstNeigh:157 secndNeigh:197
+thirdNeighSymblType:0
+forthNeighSymblType: 1
+Next: 157
+>> Stack: 157:177:15 113:93:1 :: 2
+Set 157 to be loop element
+. F - - - - 7 F 7 F 7 F 7 F - 7 . . . . . | F - - 7 | | | | | | | | F J . . . . . | | . F J | | | | | | | | L 7 . . . . F J L 7 L 7 L J L J | | L -1 . L - 7 . . L - - J . L 7 . . . L J 0 0 -1 - 7 L 7 . . . . . F - J . . F 7 F 1 0 -1 7 L 7 L 7 . . . . L 7 . F 7 | | L 1 0 -1 -1 7 L 7 | . . . . . | F J L J | F 1 0 0 0 0 . L J . . . . F J L - 7 . | | 1 0 0 0 0 1 . . . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 157, Previous: 177, Stack: 113:93:1 1
+Current: 157, Previous: 177, Current Symbol: |
+fNS: 7
+sNS: |
+CHECK1 1 1 1 1
+CHECK2 156:0 158:1
+firstNeigh:137 secndNeigh:177
+thirdNeighSymblType:0
+forthNeighSymblType: 1
+Next: 137
+>> Stack: 137:157:16 113:93:1 :: 2
+Set 137 to be loop element
+. F - - - - 7 F 7 F 7 F 7 F - 7 . . . . . | F - - 7 | | | | | | | | F J . . . . . | | . F J | | | | | | | | L 7 . . . . F J L 7 L 7 L J L J | | L -1 . L - 7 . . L - - J . L 7 . . . L J 0 0 -1 - 7 L 7 . . . . . F - J . . F 7 F 1 0 -1 7 L 7 L 7 . . . . L 7 . F 7 | | L 1 0 -1 -1 0 L 7 | . . . . . | F J L J | F 1 0 0 0 0 1 L J . . . . F J L - 7 . | | 1 0 0 0 0 1 . . . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 137, Previous: 157, Stack: 113:93:1 1
+Current: 137, Previous: 157, Current Symbol: 7
+fNS: L
+sNS: |
+CHECK1 0 1 1 1
+CHECK2 138:1 117:1
+firstNeigh:136 secndNeigh:157
+thirdNeighSymblType:1
+forthNeighSymblType: 1
+Next: 136
+>> Stack: 136:137:17 113:93:1 :: 2
+Set 136 to be loop element
+. F - - - - 7 F 7 F 7 F 7 F - 7 . . . . . | F - - 7 | | | | | | | | F J . . . . . | | . F J | | | | | | | | L 7 . . . . F J L 7 L 7 L J L J | | L -1 . L - 7 . . L - - J . L 7 . . . L J 0 0 -1 - 7 L 7 . . . . . F - J . . F 7 F 1 0 -1 7 1 7 L 7 . . . . L 7 . F 7 | | L 1 0 -1 0 0 1 7 | . . . . . | F J L J | F 1 0 0 0 0 1 L J . . . . F J L - 7 . | | 1 0 0 0 0 1 . . . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 136, Previous: 137, Stack: 113:93:1 1
+Current: 136, Previous: 137, Current Symbol: L
+fNS: 7
+sNS: 7
+CHECK1 1 1 0 1
+CHECK2 156:0 135:1
+firstNeigh:116 secndNeigh:137
+thirdNeighSymblType:0
+forthNeighSymblType: -1
+Next: 116
+>> Stack: 116:136:18 113:93:1 :: 2
+Set 116 to be loop element
+. F - - - - 7 F 7 F 7 F 7 F - 7 . . . . . | F - - 7 | | | | | | | | F J . . . . . | | . F J | | | | | | | | L 7 . . . . F J L 7 L 7 L J L J | | L -1 . L - 7 . . L - - J . L 7 . . . L J 0 0 -1 - 7 L 7 . . . . . F - J . . F 7 F 1 0 -1 0 1 7 L 7 . . . . L 7 . F 7 | | L 1 0 -1 0 0 1 7 | . . . . . | F J L J | F 1 0 0 0 0 1 L J . . . . F J L - 7 . | | 1 0 0 0 0 1 . . . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 116, Previous: 136, Stack: 113:93:1 1
+Current: 116, Previous: 136, Current Symbol: 7
+fNS: L
+sNS: L
+CHECK1 0 1 1 1
+CHECK2 117:1 96:1
+firstNeigh:115 secndNeigh:136
+thirdNeighSymblType:1
+forthNeighSymblType: 1
+Next: 115
+>> Stack: 115:116:19 113:93:1 :: 2
+Set 115 to be loop element
+. F - - - - 7 F 7 F 7 F 7 F - 7 . . . . . | F - - 7 | | | | | | | | F J . . . . . | | . F J | | | | | | | | L 7 . . . . F J L 7 L 7 L J L J | | L -1 . L - 7 . . L - - J . L 7 . . . L J 0 0 -1 1 7 L 7 . . . . . F - J . . F 7 F 1 0 0 0 1 7 L 7 . . . . L 7 . F 7 | | L 1 0 -1 0 0 1 7 | . . . . . | F J L J | F 1 0 0 0 0 1 L J . . . . F J L - 7 . | | 1 0 0 0 0 1 . . . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 115, Previous: 116, Stack: 113:93:1 1
+Current: 115, Previous: 116, Current Symbol: L
+fNS: F
+sNS: 7
+CHECK1 1 1 0 1
+CHECK2 135:1 114:0
+firstNeigh:95 secndNeigh:116
+thirdNeighSymblType:-1
+forthNeighSymblType: 0
+Next: 95
+>> Stack: 95:115:20 113:93:1 :: 2
+Set 95 to be loop element
+. F - - - - 7 F 7 F 7 F 7 F - 7 . . . . . | F - - 7 | | | | | | | | F J . . . . . | | . F J | | | | | | | | L 7 . . . . F J L 7 L 7 L J L J | | L -1 . L - 7 . . L - - J . L 7 . . . L J 0 0 0 1 7 L 7 . . . . . F - J . . F 7 F 1 0 0 0 1 7 L 7 . . . . L 7 . F 7 | | L 1 0 -1 0 0 1 7 | . . . . . | F J L J | F 1 0 0 0 0 1 L J . . . . F J L - 7 . | | 1 0 0 0 0 1 . . . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 95, Previous: 115, Stack: 113:93:1 1
+Current: 95, Previous: 115, Current Symbol: F
+fNS: -
+sNS: L
+CHECK1 1 0 1 1
+CHECK2 94:0 75:1
+firstNeigh:96 secndNeigh:115
+thirdNeighSymblType:0
+forthNeighSymblType: -1
+Next: 96
+>> Stack: 96:95:21 113:93:1 :: 2
+Set 96 to be loop element
+. F - - - - 7 F 7 F 7 F 7 F - 7 . . . . . | F - - 7 | | | | | | | | F J . . . . . | | . F J | | | | | | | | L 7 . . . . F J L 7 L 7 L J L J | | L -1 -1 L - 7 . . L - - J . L 7 . . . L J 0 0 0 0 7 L 7 . . . . . F - J . . F 7 F 1 0 0 0 1 7 L 7 . . . . L 7 . F 7 | | L 1 0 -1 0 0 1 7 | . . . . . | F J L J | F 1 0 0 0 0 1 L J . . . . F J L - 7 . | | 1 0 0 0 0 1 . . . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 96, Previous: 95, Stack: 113:93:1 1
+Current: 96, Previous: 95, Current Symbol: -
+fNS: F
+sNS: 7
+CHECK1 1 1 1 1
+CHECK2 76:1 116:0
+firstNeigh:95 secndNeigh:97
+thirdNeighSymblType:-1
+forthNeighSymblType: 0
+Next: 97
+>> Stack: 97:96:22 113:93:1 :: 2
+Set 97 to be loop element
+. F - - - - 7 F 7 F 7 F 7 F - 7 . . . . . | F - - 7 | | | | | | | | F J . . . . . | | . F J | | | | | | | | L 7 . . . . F J L 7 L 7 L J L J | | L -1 -1 -1 - 7 . . L - - J . L 7 . . . L J 0 0 0 0 0 L 7 . . . . . F - J . . F 7 F 1 0 0 0 1 7 L 7 . . . . L 7 . F 7 | | L 1 0 -1 0 0 1 7 | . . . . . | F J L J | F 1 0 0 0 0 1 L J . . . . F J L - 7 . | | 1 0 0 0 0 1 . . . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 97, Previous: 96, Stack: 113:93:1 1
+Current: 97, Previous: 96, Current Symbol: 7
+fNS: -
+sNS: L
+CHECK1 0 1 1 1
+CHECK2 98:1 77:1
+firstNeigh:96 secndNeigh:117
+thirdNeighSymblType:-1
+forthNeighSymblType: -1
+Next: 117
+>> Stack: 117:97:23 113:93:1 :: 2
+Set 117 to be loop element
+. F - - - - 7 F 7 F 7 F 7 F - 7 . . . . . | F - - 7 | | | | | | | | F J . . . . . | | . F J | | | | | | | | L 7 . . . . F J L 7 L 7 L J L J | | L -1 -1 -1 -1 7 . . L - - J . L 7 . . . L J 0 0 0 0 0 -1 7 . . . . . F - J . . F 7 F 1 0 0 0 0 7 L 7 . . . . L 7 . F 7 | | L 1 0 -1 0 0 1 7 | . . . . . | F J L J | F 1 0 0 0 0 1 L J . . . . F J L - 7 . | | 1 0 0 0 0 1 . . . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 117, Previous: 97, Stack: 113:93:1 1
+Current: 117, Previous: 97, Current Symbol: L
+fNS: 7
+sNS: 7
+CHECK1 1 1 0 1
+CHECK2 137:0 116:0
+firstNeigh:97 secndNeigh:118
+thirdNeighSymblType:0
+forthNeighSymblType: 0
+Next: 118
+>> Stack: 118:117:24 113:93:1 :: 2
+Set 118 to be loop element
+. F - - - - 7 F 7 F 7 F 7 F - 7 . . . . . | F - - 7 | | | | | | | | F J . . . . . | | . F J | | | | | | | | L 7 . . . . F J L 7 L 7 L J L J | | L -1 -1 -1 -1 7 . . L - - J . L 7 . . . L J 0 0 0 0 0 -1 7 . . . . . F - J . . F 7 F 1 0 0 0 0 0 L 7 . . . . L 7 . F 7 | | L 1 0 -1 0 0 1 7 | . . . . . | F J L J | F 1 0 0 0 0 1 L J . . . . F J L - 7 . | | 1 0 0 0 0 1 . . . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 118, Previous: 117, Stack: 113:93:1 1
+Current: 118, Previous: 117, Current Symbol: 7
+fNS: L
+sNS: L
+CHECK1 0 1 1 1
+CHECK2 119:1 98:1
+firstNeigh:117 secndNeigh:138
+thirdNeighSymblType:-1
+forthNeighSymblType: -1
+Next: 138
+>> Stack: 138:118:25 113:93:1 :: 2
+Set 138 to be loop element
+. F - - - - 7 F 7 F 7 F 7 F - 7 . . . . . | F - - 7 | | | | | | | | F J . . . . . | | . F J | | | | | | | | L 7 . . . . F J L 7 L 7 L J L J | | L -1 -1 -1 -1 7 . . L - - J . L 7 . . . L J 0 0 0 0 0 -1 7 . . . . . F - J . . F 7 F 1 0 0 0 0 0 -1 7 . . . . L 7 . F 7 | | L 1 0 -1 0 0 0 7 | . . . . . | F J L J | F 1 0 0 0 0 1 L J . . . . F J L - 7 . | | 1 0 0 0 0 1 . . . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 138, Previous: 118, Stack: 113:93:1 1
+Current: 138, Previous: 118, Current Symbol: L
+fNS: 7
+sNS: 7
+CHECK1 1 1 0 1
+CHECK2 158:1 137:0
+firstNeigh:118 secndNeigh:139
+thirdNeighSymblType:1
+forthNeighSymblType: 0
+Next: 139
+>> Stack: 139:138:26 113:93:1 :: 2
+Set 139 to be loop element
+. F - - - - 7 F 7 F 7 F 7 F - 7 . . . . . | F - - 7 | | | | | | | | F J . . . . . | | . F J | | | | | | | | L 7 . . . . F J L 7 L 7 L J L J | | L -1 -1 -1 -1 7 . . L - - J . L 7 . . . L J 0 0 0 0 0 -1 7 . . . . . F - J . . F 7 F 1 0 0 0 0 0 -1 7 . . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 | . . . . . | F J L J | F 1 0 0 0 0 1 L J . . . . F J L - 7 . | | 1 0 0 0 0 1 . . . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 139, Previous: 138, Stack: 113:93:1 1
+Current: 139, Previous: 138, Current Symbol: 7
+fNS: L
+sNS: L
+CHECK1 0 1 1 1
+CHECK2 140:1 119:1
+firstNeigh:138 secndNeigh:159
+thirdNeighSymblType:-1
+forthNeighSymblType: -1
+Next: 159
+>> Stack: 159:139:27 113:93:1 :: 2
+Set 159 to be loop element
+. F - - - - 7 F 7 F 7 F 7 F - 7 . . . . . | F - - 7 | | | | | | | | F J . . . . . | | . F J | | | | | | | | L 7 . . . . F J L 7 L 7 L J L J | | L -1 -1 -1 -1 7 . . L - - J . L 7 . . . L J 0 0 0 0 0 -1 7 . . . . . F - J . . F 7 F 1 0 0 0 0 0 -1 7 . . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 -1 . . . . . | F J L J | F 1 0 0 0 0 1 0 J . . . . F J L - 7 . | | 1 0 0 0 0 1 . . . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 159, Previous: 139, Stack: 113:93:1 1
+Current: 159, Previous: 139, Current Symbol: L
+fNS: 7
+sNS: J
+CHECK1 1 1 0 1
+CHECK2 179:1 158:1
+firstNeigh:139 secndNeigh:160
+thirdNeighSymblType:1
+forthNeighSymblType: 1
+Next: 160
+>> Stack: 160:159:28 113:93:1 :: 2
+Set 160 to be loop element
+. F - - - - 7 F 7 F 7 F 7 F - 7 . . . . . | F - - 7 | | | | | | | | F J . . . . . | | . F J | | | | | | | | L 7 . . . . F J L 7 L 7 L J L J | | L -1 -1 -1 -1 7 . . L - - J . L 7 . . . L J 0 0 0 0 0 -1 7 . . . . . F - J . . F 7 F 1 0 0 0 0 0 -1 7 . . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 -1 . . . . . | F J L J | F 1 0 0 0 0 1 0 0 . . . . F J L - 7 . | | 1 0 0 0 0 1 1 . . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 160, Previous: 159, Stack: 113:93:1 1
+Current: 160, Previous: 159, Current Symbol: J
+fNS: L
+sNS: |
+CHECK1 1 1 1 0
+CHECK2 161:1 180:1
+firstNeigh:159 secndNeigh:140
+thirdNeighSymblType:1
+forthNeighSymblType: 1
+Next: 140
+>> Stack: 140:160:29 113:93:1 :: 2
+Set 140 to be loop element
+. F - - - - 7 F 7 F 7 F 7 F - 7 . . . . . | F - - 7 | | | | | | | | F J . . . . . | | . F J | | | | | | | | L 7 . . . . F J L 7 L 7 L J L J | | L -1 -1 -1 -1 7 . . L - - J . L 7 . . . L J 0 0 0 0 0 -1 7 . . . . . F - J . . F 7 F 1 0 0 0 0 0 -1 7 . . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 . . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 140, Previous: 160, Stack: 113:93:1 1
+Current: 140, Previous: 160, Current Symbol: |
+fNS: 7
+sNS: J
+CHECK1 1 1 1 1
+CHECK2 139:0 141:1
+firstNeigh:120 secndNeigh:160
+thirdNeighSymblType:0
+forthNeighSymblType: 1
+Next: 120
+>> Stack: 120:140:30 113:93:1 :: 2
+Set 120 to be loop element
+. F - - - - 7 F 7 F 7 F 7 F - 7 . . . . . | F - - 7 | | | | | | | | F J . . . . . | | . F J | | | | | | | | L 7 . . . . F J L 7 L 7 L J L J | | L -1 -1 -1 -1 7 . . L - - J . L 7 . . . L J 0 0 0 0 0 -1 7 . . . . . F - J . . F 7 F 1 0 0 0 0 0 -1 0 . . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 120, Previous: 140, Stack: 113:93:1 1
+Current: 120, Previous: 140, Current Symbol: 7
+fNS: L
+sNS: |
+CHECK1 0 1 1 1
+CHECK2 121:1 100:1
+firstNeigh:119 secndNeigh:140
+thirdNeighSymblType:1
+forthNeighSymblType: 1
+Next: 119
+>> Stack: 119:120:31 113:93:1 :: 2
+Set 119 to be loop element
+. F - - - - 7 F 7 F 7 F 7 F - 7 . . . . . | F - - 7 | | | | | | | | F J . . . . . | | . F J | | | | | | | | L 7 . . . . F J L 7 L 7 L J L J | | L -1 -1 -1 -1 7 . . L - - J . L 7 . . . L J 0 0 0 0 0 -1 7 1 . . . . F - J . . F 7 F 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 119, Previous: 120, Stack: 113:93:1 1
+Current: 119, Previous: 120, Current Symbol: L
+fNS: 7
+sNS: 7
+CHECK1 1 1 0 1
+CHECK2 139:0 118:0
+firstNeigh:99 secndNeigh:120
+thirdNeighSymblType:0
+forthNeighSymblType: 0
+Next: 99
+>> Stack: 99:119:32 113:93:1 :: 2
+Set 99 to be loop element
+. F - - - - 7 F 7 F 7 F 7 F - 7 . . . . . | F - - 7 | | | | | | | | F J . . . . . | | . F J | | | | | | | | L 7 . . . . F J L 7 L 7 L J L J | | L -1 -1 -1 -1 7 . . L - - J . L 7 . . . L J 0 0 0 0 0 -1 0 1 . . . . F - J . . F 7 F 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 99, Previous: 119, Stack: 113:93:1 1
+Current: 99, Previous: 119, Current Symbol: 7
+fNS: L
+sNS: L
+CHECK1 0 1 1 1
+CHECK2 100:1 79:1
+firstNeigh:98 secndNeigh:119
+thirdNeighSymblType:1
+forthNeighSymblType: 1
+Next: 98
+>> Stack: 98:99:33 113:93:1 :: 2
+Set 98 to be loop element
+. F - - - - 7 F 7 F 7 F 7 F - 7 . . . . . | F - - 7 | | | | | | | | F J . . . . . | | . F J | | | | | | | | L 7 . . . . F J L 7 L 7 L J L J | | L -1 -1 -1 -1 7 1 . L - - J . L 7 . . . L J 0 0 0 0 0 0 0 1 . . . . F - J . . F 7 F 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 98, Previous: 99, Stack: 113:93:1 1
+Current: 98, Previous: 99, Current Symbol: L
+fNS: 7
+sNS: 7
+CHECK1 1 1 0 1
+CHECK2 118:0 97:0
+firstNeigh:78 secndNeigh:99
+thirdNeighSymblType:0
+forthNeighSymblType: 0
+Next: 78
+>> Stack: 78:98:34 113:93:1 :: 2
+Set 78 to be loop element
+. F - - - - 7 F 7 F 7 F 7 F - 7 . . . . . | F - - 7 | | | | | | | | F J . . . . . | | . F J | | | | | | | | L 7 . . . . F J L 7 L 7 L J L J | | L -1 -1 -1 -1 0 1 . L - - J . L 7 . . . L J 0 0 0 0 0 0 0 1 . . . . F - J . . F 7 F 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 78, Previous: 98, Stack: 113:93:1 1
+Current: 78, Previous: 98, Current Symbol: 7
+fNS: -
+sNS: L
+CHECK1 0 1 1 1
+CHECK2 79:1 58:1
+firstNeigh:77 secndNeigh:98
+thirdNeighSymblType:1
+forthNeighSymblType: 1
+Next: 77
+>> Stack: 77:78:35 113:93:1 :: 2
+Set 77 to be loop element
+. F - - - - 7 F 7 F 7 F 7 F - 7 . . . . . | F - - 7 | | | | | | | | F J . . . . . | | . F J | | | | | | | | L 7 . 1 . . F J L 7 L 7 L J L J | | L -1 -1 -1 0 0 1 . L - - J . L 7 . . . L J 0 0 0 0 0 0 0 1 . . . . F - J . . F 7 F 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 77, Previous: 78, Stack: 113:93:1 1
+Current: 77, Previous: 78, Current Symbol: -
+fNS: L
+sNS: 7
+CHECK1 1 1 1 1
+CHECK2 57:1 97:0
+firstNeigh:76 secndNeigh:78
+thirdNeighSymblType:1
+forthNeighSymblType: 0
+Next: 76
+>> Stack: 76:77:36 113:93:1 :: 2
+Set 76 to be loop element
+. F - - - - 7 F 7 F 7 F 7 F - 7 . . . . . | F - - 7 | | | | | | | | F J . . . . . | | . F J | | | | | | | | L 7 1 1 . . F J L 7 L 7 L J L J | | L -1 -1 0 0 0 1 . L - - J . L 7 . . . L J 0 0 0 0 0 0 0 1 . . . . F - J . . F 7 F 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 76, Previous: 77, Stack: 113:93:1 1
+Current: 76, Previous: 77, Current Symbol: L
+fNS: 7
+sNS: -
+CHECK1 1 1 0 1
+CHECK2 96:0 75:1
+firstNeigh:56 secndNeigh:77
+thirdNeighSymblType:0
+forthNeighSymblType: -1
+Next: 56
+>> Stack: 56:76:37 113:93:1 :: 2
+Set 56 to be loop element
+. F - - - - 7 F 7 F 7 F 7 F - 7 . . . . . | F - - 7 | | | | | | | | F J . . . . . | | . F J | | | | | | | | L 0 1 1 . . F J L 7 L 7 L J L J | | L -1 -1 0 0 0 1 . L - - J . L 7 . . . L J 0 0 0 0 0 0 0 1 . . . . F - J . . F 7 F 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 56, Previous: 76, Stack: 113:93:1 1
+Current: 56, Previous: 76, Current Symbol: 7
+fNS: L
+sNS: L
+CHECK1 0 1 1 1
+CHECK2 57:1 36:1
+firstNeigh:55 secndNeigh:76
+thirdNeighSymblType:1
+forthNeighSymblType: 1
+Next: 55
+>> Stack: 55:56:38 113:93:1 :: 2
+Set 55 to be loop element
+. F - - - - 7 F 7 F 7 F 7 F - 7 . . . . . | F - - 7 | | | | | | | | F 1 . . . . . | | . F J | | | | | | | | 0 0 1 1 . . F J L 7 L 7 L J L J | | L -1 -1 0 0 0 1 . L - - J . L 7 . . . L J 0 0 0 0 0 0 0 1 . . . . F - J . . F 7 F 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 55, Previous: 56, Stack: 113:93:1 1
+Current: 55, Previous: 56, Current Symbol: L
+fNS: F
+sNS: 7
+CHECK1 1 1 0 1
+CHECK2 75:1 54:1
+firstNeigh:35 secndNeigh:56
+thirdNeighSymblType:-1
+forthNeighSymblType: -1
+Next: 35
+>> Stack: 35:55:39 113:93:1 :: 2
+Set 35 to be loop element
+. F - - - - 7 F 7 F 7 F 7 F - 7 . . . . . | F - - 7 | | | | | | | | 0 1 . . . . . | | . F J | | | | | | | -1 0 0 1 1 . . F J L 7 L 7 L J L J | | L -1 -1 0 0 0 1 . L - - J . L 7 . . . L J 0 0 0 0 0 0 0 1 . . . . F - J . . F 7 F 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 35, Previous: 55, Stack: 113:93:1 1
+Current: 35, Previous: 55, Current Symbol: F
+fNS: J
+sNS: L
+CHECK1 1 0 1 1
+CHECK2 34:1 15:1
+firstNeigh:36 secndNeigh:55
+thirdNeighSymblType:-1
+forthNeighSymblType: -1
+Next: 36
+>> Stack: 36:35:40 113:93:1 :: 2
+Set 36 to be loop element
+. F - - - - 7 F 7 F 7 F 7 F -1 7 . . . . . | F - - 7 | | | | | | | -1 0 0 . . . . . | | . F J | | | | | | | -1 0 0 1 1 . . F J L 7 L 7 L J L J | | L -1 -1 0 0 0 1 . L - - J . L 7 . . . L J 0 0 0 0 0 0 0 1 . . . . F - J . . F 7 F 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 36, Previous: 35, Stack: 113:93:1 1
+Current: 36, Previous: 35, Current Symbol: J
+fNS: F
+sNS: 7
+CHECK1 1 1 1 0
+CHECK2 37:1 56:0
+firstNeigh:35 secndNeigh:16
+thirdNeighSymblType:0
+forthNeighSymblType: 0
+Next: 16
+>> Stack: 16:36:41 113:93:1 :: 2
+Set 16 to be loop element
+. F - - - - 7 F 7 F 7 F 7 F -1 0 . . . . . | F - - 7 | | | | | | | -1 0 0 0 . . . . | | . F J | | | | | | | -1 0 0 1 1 . . F J L 7 L 7 L J L J | | L -1 -1 0 0 0 1 . L - - J . L 7 . . . L J 0 0 0 0 0 0 0 1 . . . . F - J . . F 7 F 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 16, Previous: 36, Stack: 113:93:1 1
+Current: 16, Previous: 36, Current Symbol: 7
+fNS: -
+sNS: J
+CHECK1 0 1 1 1
+CHECK2 17:1 -4:-1
+firstNeigh:15 secndNeigh:36
+thirdNeighSymblType:1
+Next: 15
+>> Stack: 15:16:42 113:93:1 :: 2
+Set 15 to be loop element
+. F - - - - 7 F 7 F 7 F 7 F 0 0 1 . . . . | F - - 7 | | | | | | | -1 0 0 0 . . . . | | . F J | | | | | | | -1 0 0 1 1 . . F J L 7 L 7 L J L J | | L -1 -1 0 0 0 1 . L - - J . L 7 . . . L J 0 0 0 0 0 0 0 1 . . . . F - J . . F 7 F 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 15, Previous: 16, Stack: 113:93:1 1
+Current: 15, Previous: 16, Current Symbol: -
+fNS: F
+sNS: 7
+CHECK1 1 1 1 1
+CHECK2 -5:-1 35:0
+firstNeigh:14 secndNeigh:16
+forthNeighSymblType: 0
+Next: 14
+>> Stack: 14:15:43 113:93:1 :: 2
+Set 14 to be loop element
+. F - - - - 7 F 7 F 7 F 7 0 0 0 1 . . . . | F - - 7 | | | | | | | -1 0 0 0 . . . . | | . F J | | | | | | | -1 0 0 1 1 . . F J L 7 L 7 L J L J | | L -1 -1 0 0 0 1 . L - - J . L 7 . . . L J 0 0 0 0 0 0 0 1 . . . . F - J . . F 7 F 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 14, Previous: 15, Stack: 113:93:1 1
+Current: 14, Previous: 15, Current Symbol: F
+fNS: -
+sNS: |
+CHECK1 1 0 1 1
+CHECK2 13:1 -6:-1
+firstNeigh:15 secndNeigh:34
+thirdNeighSymblType:1
+Next: 34
+>> Stack: 34:14:44 113:93:1 :: 2
+Set 34 to be loop element
+. F - - - - 7 F 7 F 7 F 1 0 0 0 1 . . . . | F - - 7 | | | | | | | 0 0 0 0 . . . . | | . F J | | | | | | | -1 0 0 1 1 . . F J L 7 L 7 L J L J | | L -1 -1 0 0 0 1 . L - - J . L 7 . . . L J 0 0 0 0 0 0 0 1 . . . . F - J . . F 7 F 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 34, Previous: 14, Stack: 113:93:1 1
+Current: 34, Previous: 14, Current Symbol: |
+fNS: F
+sNS: |
+CHECK1 1 1 1 1
+CHECK2 33:1 35:0
+firstNeigh:14 secndNeigh:54
+thirdNeighSymblType:1
+forthNeighSymblType: 0
+Next: 54
+>> Stack: 54:34:45 113:93:1 :: 2
+Set 54 to be loop element
+. F - - - - 7 F 7 F 7 F 1 0 0 0 1 . . . . | F - - 7 | | | | | | 1 0 0 0 0 . . . . | | . F J | | | | | | | 0 0 0 1 1 . . F J L 7 L 7 L J L J | | L -1 -1 0 0 0 1 . L - - J . L 7 . . . L J 0 0 0 0 0 0 0 1 . . . . F - J . . F 7 F 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 54, Previous: 34, Stack: 113:93:1 1
+Current: 54, Previous: 34, Current Symbol: |
+fNS: |
+sNS: J
+CHECK1 1 1 1 1
+CHECK2 53:1 55:0
+firstNeigh:34 secndNeigh:74
+thirdNeighSymblType:1
+forthNeighSymblType: 0
+Next: 74
+>> Stack: 74:54:46 113:93:1 :: 2
+Set 74 to be loop element
+. F - - - - 7 F 7 F 7 F 1 0 0 0 1 . . . . | F - - 7 | | | | | | 1 0 0 0 0 . . . . | | . F J | | | | | | 1 0 0 0 1 1 . . F J L 7 L 7 L J L J | | L 0 -1 0 0 0 1 . L - - J . L 7 . . . L J 0 0 0 0 0 0 0 1 . . . . F - J . . F 7 F 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 74, Previous: 54, Stack: 113:93:1 1
+Current: 74, Previous: 54, Current Symbol: J
+fNS: L
+sNS: |
+CHECK1 1 1 1 0
+CHECK2 75:1 94:0
+firstNeigh:73 secndNeigh:54
+thirdNeighSymblType:-1
+forthNeighSymblType: 0
+Next: 73
+>> Stack: 73:74:47 113:93:1 :: 2
+Set 73 to be loop element
+. F - - - - 7 F 7 F 7 F 1 0 0 0 1 . . . . | F - - 7 | | | | | | 1 0 0 0 0 . . . . | | . F J | | | | | | 1 0 0 0 1 1 . . F J L 7 L 7 L J L J | | 0 0 -1 0 0 0 1 . L - - J . L 7 . . . L J 0 0 0 0 0 0 0 1 . . . . F - J . . F 7 F 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 73, Previous: 74, Stack: 113:93:1 1
+Current: 73, Previous: 74, Current Symbol: L
+fNS: |
+sNS: J
+CHECK1 1 1 0 1
+CHECK2 93:0 72:1
+firstNeigh:53 secndNeigh:74
+thirdNeighSymblType:0
+forthNeighSymblType: -1
+Next: 53
+>> Stack: 53:73:48 113:93:1 :: 2
+Set 53 to be loop element
+. F - - - - 7 F 7 F 7 F 1 0 0 0 1 . . . . | F - - 7 | | | | | | 1 0 0 0 0 . . . . | | . F J | | | | | | 0 0 0 0 1 1 . . F J L 7 L 7 L J L J | -1 0 0 -1 0 0 0 1 . L - - J . L 7 . . . L J 0 0 0 0 0 0 0 1 . . . . F - J . . F 7 F 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 53, Previous: 73, Stack: 113:93:1 1
+Current: 53, Previous: 73, Current Symbol: |
+fNS: |
+sNS: L
+CHECK1 1 1 1 1
+CHECK2 52:1 54:0
+firstNeigh:33 secndNeigh:73
+thirdNeighSymblType:-1
+forthNeighSymblType: 0
+Next: 33
+>> Stack: 33:53:49 113:93:1 :: 2
+Set 33 to be loop element
+. F - - - - 7 F 7 F 7 F 1 0 0 0 1 . . . . | F - - 7 | | | | | | 0 0 0 0 0 . . . . | | . F J | | | | | -1 0 0 0 0 1 1 . . F J L 7 L 7 L J L J | -1 0 0 -1 0 0 0 1 . L - - J . L 7 . . . L J 0 0 0 0 0 0 0 1 . . . . F - J . . F 7 F 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 33, Previous: 53, Stack: 113:93:1 1
+Current: 33, Previous: 53, Current Symbol: |
+fNS: 7
+sNS: |
+CHECK1 1 1 1 1
+CHECK2 32:1 34:0
+firstNeigh:13 secndNeigh:53
+thirdNeighSymblType:-1
+forthNeighSymblType: 0
+Next: 13
+>> Stack: 13:33:50 113:93:1 :: 2
+Set 13 to be loop element
+. F - - - - 7 F 7 F 7 F 0 0 0 0 1 . . . . | F - - 7 | | | | | -1 0 0 0 0 0 . . . . | | . F J | | | | | -1 0 0 0 0 1 1 . . F J L 7 L 7 L J L J | -1 0 0 -1 0 0 0 1 . L - - J . L 7 . . . L J 0 0 0 0 0 0 0 1 . . . . F - J . . F 7 F 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 13, Previous: 33, Stack: 113:93:1 1
+Current: 13, Previous: 33, Current Symbol: 7
+fNS: F
+sNS: |
+CHECK1 0 1 1 1
+CHECK2 14:0 -7:-1
+firstNeigh:12 secndNeigh:33
+thirdNeighSymblType:0
+Next: 12
+>> Stack: 12:13:51 113:93:1 :: 2
+Set 12 to be loop element
+. F - - - - 7 F 7 F 7 0 0 0 0 0 1 . . . . | F - - 7 | | | | | -1 0 0 0 0 0 . . . . | | . F J | | | | | -1 0 0 0 0 1 1 . . F J L 7 L 7 L J L J | -1 0 0 -1 0 0 0 1 . L - - J . L 7 . . . L J 0 0 0 0 0 0 0 1 . . . . F - J . . F 7 F 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 12, Previous: 13, Stack: 113:93:1 1
+Current: 12, Previous: 13, Current Symbol: F
+fNS: 7
+sNS: |
+CHECK1 1 0 1 1
+CHECK2 11:1 -8:-1
+firstNeigh:13 secndNeigh:32
+thirdNeighSymblType:1
+Next: 32
+>> Stack: 32:12:52 113:93:1 :: 2
+Set 32 to be loop element
+. F - - - - 7 F 7 F 1 0 0 0 0 0 1 . . . . | F - - 7 | | | | | 0 0 0 0 0 0 . . . . | | . F J | | | | | -1 0 0 0 0 1 1 . . F J L 7 L 7 L J L J | -1 0 0 -1 0 0 0 1 . L - - J . L 7 . . . L J 0 0 0 0 0 0 0 1 . . . . F - J . . F 7 F 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 32, Previous: 12, Stack: 113:93:1 1
+Current: 32, Previous: 12, Current Symbol: |
+fNS: F
+sNS: |
+CHECK1 1 1 1 1
+CHECK2 31:1 33:0
+firstNeigh:12 secndNeigh:52
+thirdNeighSymblType:1
+forthNeighSymblType: 0
+Next: 52
+>> Stack: 52:32:53 113:93:1 :: 2
+Set 52 to be loop element
+. F - - - - 7 F 7 F 1 0 0 0 0 0 1 . . . . | F - - 7 | | | | 1 0 0 0 0 0 0 . . . . | | . F J | | | | | 0 0 0 0 0 1 1 . . F J L 7 L 7 L J L J | -1 0 0 -1 0 0 0 1 . L - - J . L 7 . . . L J 0 0 0 0 0 0 0 1 . . . . F - J . . F 7 F 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 52, Previous: 32, Stack: 113:93:1 1
+Current: 52, Previous: 32, Current Symbol: |
+fNS: |
+sNS: |
+CHECK1 1 1 1 1
+CHECK2 51:1 53:0
+firstNeigh:32 secndNeigh:72
+thirdNeighSymblType:1
+forthNeighSymblType: 0
+Next: 72
+>> Stack: 72:52:54 113:93:1 :: 2
+Set 72 to be loop element
+. F - - - - 7 F 7 F 1 0 0 0 0 0 1 . . . . | F - - 7 | | | | 1 0 0 0 0 0 0 . . . . | | . F J | | | | 1 0 0 0 0 0 1 1 . . F J L 7 L 7 L J L J | 0 0 0 -1 0 0 0 1 . L - - J . L 7 . . . L J 0 0 0 0 0 0 0 1 . . . . F - J . . F 7 F 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 72, Previous: 52, Stack: 113:93:1 1
+Current: 72, Previous: 52, Current Symbol: |
+fNS: |
+sNS: J
+CHECK1 1 1 1 1
+CHECK2 71:1 73:0
+firstNeigh:52 secndNeigh:92
+thirdNeighSymblType:1
+forthNeighSymblType: 0
+Next: 92
+>> Stack: 92:72:55 113:93:1 :: 2
+Set 92 to be loop element
+. F - - - - 7 F 7 F 1 0 0 0 0 0 1 . . . . | F - - 7 | | | | 1 0 0 0 0 0 0 . . . . | | . F J | | | | 1 0 0 0 0 0 1 1 . . F J L 7 L 7 L J L J 1 0 0 0 -1 0 0 0 1 . L - - J . L 7 . . . L 0 0 0 0 0 0 0 0 1 . . . . F - J . . F 7 F 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 92, Previous: 72, Stack: 113:93:1 1
+Current: 92, Previous: 72, Current Symbol: J
+fNS: L
+sNS: |
+CHECK1 1 1 1 0
+CHECK2 93:0 112:1
+firstNeigh:91 secndNeigh:72
+thirdNeighSymblType:0
+forthNeighSymblType: -1
+Next: 91
+>> Stack: 91:92:56 113:93:1 :: 2
+Set 91 to be loop element
+. F - - - - 7 F 7 F 1 0 0 0 0 0 1 . . . . | F - - 7 | | | | 1 0 0 0 0 0 0 . . . . | | . F J | | | | 1 0 0 0 0 0 1 1 . . F J L 7 L 7 L J L J 1 0 0 0 -1 0 0 0 1 . L - - J . L 7 . . . 0 0 0 0 0 0 0 0 0 1 . . . . F - J . . F 7 -1 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 91, Previous: 92, Stack: 113:93:1 1
+Current: 91, Previous: 92, Current Symbol: L
+fNS: |
+sNS: J
+CHECK1 1 1 0 1
+CHECK2 111:1 90:1
+firstNeigh:71 secndNeigh:92
+thirdNeighSymblType:-1
+forthNeighSymblType: -1
+Next: 71
+>> Stack: 71:91:57 113:93:1 :: 2
+Set 71 to be loop element
+. F - - - - 7 F 7 F 1 0 0 0 0 0 1 . . . . | F - - 7 | | | | 1 0 0 0 0 0 0 . . . . | | . F J | | | | 1 0 0 0 0 0 1 1 . . F J L 7 L 7 L J L J 0 0 0 0 -1 0 0 0 1 . L - - J . L 7 . . -1 0 0 0 0 0 0 0 0 0 1 . . . . F - J . . F -1 -1 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 71, Previous: 91, Stack: 113:93:1 1
+Current: 71, Previous: 91, Current Symbol: |
+fNS: |
+sNS: L
+CHECK1 1 1 1 1
+CHECK2 70:1 72:0
+firstNeigh:51 secndNeigh:91
+thirdNeighSymblType:-1
+forthNeighSymblType: 0
+Next: 51
+>> Stack: 51:71:58 113:93:1 :: 2
+Set 51 to be loop element
+. F - - - - 7 F 7 F 1 0 0 0 0 0 1 . . . . | F - - 7 | | | | 1 0 0 0 0 0 0 . . . . | | . F J | | | | 0 0 0 0 0 0 1 1 . . F J L 7 L 7 L J L -1 0 0 0 0 -1 0 0 0 1 . L - - J . L 7 . . -1 0 0 0 0 0 0 0 0 0 1 . . . . F - J . . F -1 -1 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 51, Previous: 71, Stack: 113:93:1 1
+Current: 51, Previous: 71, Current Symbol: |
+fNS: |
+sNS: |
+CHECK1 1 1 1 1
+CHECK2 50:1 52:0
+firstNeigh:31 secndNeigh:71
+thirdNeighSymblType:-1
+forthNeighSymblType: 0
+Next: 31
+>> Stack: 31:51:59 113:93:1 :: 2
+Set 31 to be loop element
+. F - - - - 7 F 7 F 1 0 0 0 0 0 1 . . . . | F - - 7 | | | | 0 0 0 0 0 0 0 . . . . | | . F J | | | -1 0 0 0 0 0 0 1 1 . . F J L 7 L 7 L J L -1 0 0 0 0 -1 0 0 0 1 . L - - J . L 7 . . -1 0 0 0 0 0 0 0 0 0 1 . . . . F - J . . F -1 -1 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 31, Previous: 51, Stack: 113:93:1 1
+Current: 31, Previous: 51, Current Symbol: |
+fNS: 7
+sNS: |
+CHECK1 1 1 1 1
+CHECK2 30:1 32:0
+firstNeigh:11 secndNeigh:51
+thirdNeighSymblType:-1
+forthNeighSymblType: 0
+Next: 11
+>> Stack: 11:31:60 113:93:1 :: 2
+Set 11 to be loop element
+. F - - - - 7 F 7 F 0 0 0 0 0 0 1 . . . . | F - - 7 | | | -1 0 0 0 0 0 0 0 . . . . | | . F J | | | -1 0 0 0 0 0 0 1 1 . . F J L 7 L 7 L J L -1 0 0 0 0 -1 0 0 0 1 . L - - J . L 7 . . -1 0 0 0 0 0 0 0 0 0 1 . . . . F - J . . F -1 -1 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 11, Previous: 31, Stack: 113:93:1 1
+Current: 11, Previous: 31, Current Symbol: 7
+fNS: F
+sNS: |
+CHECK1 0 1 1 1
+CHECK2 12:0 -9:-1
+firstNeigh:10 secndNeigh:31
+thirdNeighSymblType:0
+Next: 10
+>> Stack: 10:11:61 113:93:1 :: 2
+Set 10 to be loop element
+. F - - - - 7 F 7 0 0 0 0 0 0 0 1 . . . . | F - - 7 | | | -1 0 0 0 0 0 0 0 . . . . | | . F J | | | -1 0 0 0 0 0 0 1 1 . . F J L 7 L 7 L J L -1 0 0 0 0 -1 0 0 0 1 . L - - J . L 7 . . -1 0 0 0 0 0 0 0 0 0 1 . . . . F - J . . F -1 -1 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 10, Previous: 11, Stack: 113:93:1 1
+Current: 10, Previous: 11, Current Symbol: F
+fNS: 7
+sNS: |
+CHECK1 1 0 1 1
+CHECK2 9:1 -10:-1
+firstNeigh:11 secndNeigh:30
+thirdNeighSymblType:1
+Next: 30
+>> Stack: 30:10:62 113:93:1 :: 2
+Set 30 to be loop element
+. F - - - - 7 F 1 0 0 0 0 0 0 0 1 . . . . | F - - 7 | | | 0 0 0 0 0 0 0 0 . . . . | | . F J | | | -1 0 0 0 0 0 0 1 1 . . F J L 7 L 7 L J L -1 0 0 0 0 -1 0 0 0 1 . L - - J . L 7 . . -1 0 0 0 0 0 0 0 0 0 1 . . . . F - J . . F -1 -1 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 30, Previous: 10, Stack: 113:93:1 1
+Current: 30, Previous: 10, Current Symbol: |
+fNS: F
+sNS: |
+CHECK1 1 1 1 1
+CHECK2 29:1 31:0
+firstNeigh:10 secndNeigh:50
+thirdNeighSymblType:1
+forthNeighSymblType: 0
+Next: 50
+>> Stack: 50:30:63 113:93:1 :: 2
+Set 50 to be loop element
+. F - - - - 7 F 1 0 0 0 0 0 0 0 1 . . . . | F - - 7 | | 1 0 0 0 0 0 0 0 0 . . . . | | . F J | | | 0 0 0 0 0 0 0 1 1 . . F J L 7 L 7 L J L -1 0 0 0 0 -1 0 0 0 1 . L - - J . L 7 . . -1 0 0 0 0 0 0 0 0 0 1 . . . . F - J . . F -1 -1 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 50, Previous: 30, Stack: 113:93:1 1
+Current: 50, Previous: 30, Current Symbol: |
+fNS: |
+sNS: J
+CHECK1 1 1 1 1
+CHECK2 49:1 51:0
+firstNeigh:30 secndNeigh:70
+thirdNeighSymblType:1
+forthNeighSymblType: 0
+Next: 70
+>> Stack: 70:50:64 113:93:1 :: 2
+Set 70 to be loop element
+. F - - - - 7 F 1 0 0 0 0 0 0 0 1 . . . . | F - - 7 | | 1 0 0 0 0 0 0 0 0 . . . . | | . F J | | 1 0 0 0 0 0 0 0 1 1 . . F J L 7 L 7 L J L 0 0 0 0 0 -1 0 0 0 1 . L - - J . L 7 . . -1 0 0 0 0 0 0 0 0 0 1 . . . . F - J . . F -1 -1 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 70, Previous: 50, Stack: 113:93:1 1
+Current: 70, Previous: 50, Current Symbol: J
+fNS: L
+sNS: |
+CHECK1 1 1 1 0
+CHECK2 71:0 90:1
+firstNeigh:69 secndNeigh:50
+thirdNeighSymblType:0
+forthNeighSymblType: -1
+Next: 69
+>> Stack: 69:70:65 113:93:1 :: 2
+Set 69 to be loop element
+. F - - - - 7 F 1 0 0 0 0 0 0 0 1 . . . . | F - - 7 | | 1 0 0 0 0 0 0 0 0 . . . . | | . F J | | 1 0 0 0 0 0 0 0 1 1 . . F J L 7 L 7 L J 0 0 0 0 0 0 -1 0 0 0 1 . L - - J . L 7 . . -1 0 0 0 0 0 0 0 0 0 1 . . . . F - J . . F -1 -1 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 69, Previous: 70, Stack: 113:93:1 1
+Current: 69, Previous: 70, Current Symbol: L
+fNS: |
+sNS: J
+CHECK1 1 1 0 1
+CHECK2 89:1 68:1
+firstNeigh:49 secndNeigh:70
+thirdNeighSymblType:-1
+forthNeighSymblType: -1
+Next: 49
+>> Stack: 49:69:66 113:93:1 :: 2
+Set 49 to be loop element
+. F - - - - 7 F 1 0 0 0 0 0 0 0 1 . . . . | F - - 7 | | 1 0 0 0 0 0 0 0 0 . . . . | | . F J | | 0 0 0 0 0 0 0 0 1 1 . . F J L 7 L 7 L -1 0 0 0 0 0 0 -1 0 0 0 1 . L - - J . L 7 . -1 -1 0 0 0 0 0 0 0 0 0 1 . . . . F - J . . F -1 -1 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 49, Previous: 69, Stack: 113:93:1 1
+Current: 49, Previous: 69, Current Symbol: |
+fNS: |
+sNS: L
+CHECK1 1 1 1 1
+CHECK2 48:1 50:0
+firstNeigh:29 secndNeigh:69
+thirdNeighSymblType:-1
+forthNeighSymblType: 0
+Next: 29
+>> Stack: 29:49:67 113:93:1 :: 2
+Set 29 to be loop element
+. F - - - - 7 F 1 0 0 0 0 0 0 0 1 . . . . | F - - 7 | | 0 0 0 0 0 0 0 0 0 . . . . | | . F J | -1 0 0 0 0 0 0 0 0 1 1 . . F J L 7 L 7 L -1 0 0 0 0 0 0 -1 0 0 0 1 . L - - J . L 7 . -1 -1 0 0 0 0 0 0 0 0 0 1 . . . . F - J . . F -1 -1 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 29, Previous: 49, Stack: 113:93:1 1
+Current: 29, Previous: 49, Current Symbol: |
+fNS: 7
+sNS: |
+CHECK1 1 1 1 1
+CHECK2 28:1 30:0
+firstNeigh:9 secndNeigh:49
+thirdNeighSymblType:-1
+forthNeighSymblType: 0
+Next: 9
+>> Stack: 9:29:68 113:93:1 :: 2
+Set 9 to be loop element
+. F - - - - 7 F 0 0 0 0 0 0 0 0 1 . . . . | F - - 7 | -1 0 0 0 0 0 0 0 0 0 . . . . | | . F J | -1 0 0 0 0 0 0 0 0 1 1 . . F J L 7 L 7 L -1 0 0 0 0 0 0 -1 0 0 0 1 . L - - J . L 7 . -1 -1 0 0 0 0 0 0 0 0 0 1 . . . . F - J . . F -1 -1 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 9, Previous: 29, Stack: 113:93:1 1
+Current: 9, Previous: 29, Current Symbol: 7
+fNS: F
+sNS: |
+CHECK1 0 1 1 1
+CHECK2 10:0 -11:-1
+firstNeigh:8 secndNeigh:29
+thirdNeighSymblType:0
+Next: 8
+>> Stack: 8:9:69 113:93:1 :: 2
+Set 8 to be loop element
+. F - - - - 7 0 0 0 0 0 0 0 0 0 1 . . . . | F - - 7 | -1 0 0 0 0 0 0 0 0 0 . . . . | | . F J | -1 0 0 0 0 0 0 0 0 1 1 . . F J L 7 L 7 L -1 0 0 0 0 0 0 -1 0 0 0 1 . L - - J . L 7 . -1 -1 0 0 0 0 0 0 0 0 0 1 . . . . F - J . . F -1 -1 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 8, Previous: 9, Stack: 113:93:1 1
+Current: 8, Previous: 9, Current Symbol: F
+fNS: 7
+sNS: |
+CHECK1 1 0 1 1
+CHECK2 7:1 -12:-1
+firstNeigh:9 secndNeigh:28
+thirdNeighSymblType:1
+Next: 28
+>> Stack: 28:8:70 113:93:1 :: 2
+Set 28 to be loop element
+. F - - - - 1 0 0 0 0 0 0 0 0 0 1 . . . . | F - - 7 | 0 0 0 0 0 0 0 0 0 0 . . . . | | . F J | -1 0 0 0 0 0 0 0 0 1 1 . . F J L 7 L 7 L -1 0 0 0 0 0 0 -1 0 0 0 1 . L - - J . L 7 . -1 -1 0 0 0 0 0 0 0 0 0 1 . . . . F - J . . F -1 -1 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 28, Previous: 8, Stack: 113:93:1 1
+Current: 28, Previous: 8, Current Symbol: |
+fNS: F
+sNS: |
+CHECK1 1 1 1 1
+CHECK2 27:1 29:0
+firstNeigh:8 secndNeigh:48
+thirdNeighSymblType:1
+forthNeighSymblType: 0
+Next: 48
+>> Stack: 48:28:71 113:93:1 :: 2
+Set 48 to be loop element
+. F - - - - 1 0 0 0 0 0 0 0 0 0 1 . . . . | F - - 7 1 0 0 0 0 0 0 0 0 0 0 . . . . | | . F J | 0 0 0 0 0 0 0 0 0 1 1 . . F J L 7 L 7 L -1 0 0 0 0 0 0 -1 0 0 0 1 . L - - J . L 7 . -1 -1 0 0 0 0 0 0 0 0 0 1 . . . . F - J . . F -1 -1 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 48, Previous: 28, Stack: 113:93:1 1
+Current: 48, Previous: 28, Current Symbol: |
+fNS: |
+sNS: J
+CHECK1 1 1 1 1
+CHECK2 47:1 49:0
+firstNeigh:28 secndNeigh:68
+thirdNeighSymblType:1
+forthNeighSymblType: 0
+Next: 68
+>> Stack: 68:48:72 113:93:1 :: 2
+Set 68 to be loop element
+. F - - - - 1 0 0 0 0 0 0 0 0 0 1 . . . . | F - - 7 1 0 0 0 0 0 0 0 0 0 0 . . . . | | . F J 1 0 0 0 0 0 0 0 0 0 1 1 . . F J L 7 L 7 L 0 0 0 0 0 0 0 -1 0 0 0 1 . L - - J . L 7 . -1 -1 0 0 0 0 0 0 0 0 0 1 . . . . F - J . . F -1 -1 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 68, Previous: 48, Stack: 113:93:1 1
+Current: 68, Previous: 48, Current Symbol: J
+fNS: L
+sNS: |
+CHECK1 1 1 1 0
+CHECK2 69:0 88:1
+firstNeigh:67 secndNeigh:48
+thirdNeighSymblType:0
+forthNeighSymblType: -1
+Next: 67
+>> Stack: 67:68:73 113:93:1 :: 2
+Set 67 to be loop element
+. F - - - - 1 0 0 0 0 0 0 0 0 0 1 . . . . | F - - 7 1 0 0 0 0 0 0 0 0 0 0 . . . . | | . F J 1 0 0 0 0 0 0 0 0 0 1 1 . . F J L 7 L 7 0 0 0 0 0 0 0 0 -1 0 0 0 1 . L - - J . L 7 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 . . . . F - J . . F -1 -1 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 67, Previous: 68, Stack: 113:93:1 1
+Current: 67, Previous: 68, Current Symbol: L
+fNS: |
+sNS: J
+CHECK1 1 1 0 1
+CHECK2 87:1 66:1
+firstNeigh:47 secndNeigh:68
+thirdNeighSymblType:-1
+forthNeighSymblType: -1
+Next: 47
+>> Stack: 47:67:74 113:93:1 :: 2
+Set 47 to be loop element
+. F - - - - 1 0 0 0 0 0 0 0 0 0 1 . . . . | F - - 7 1 0 0 0 0 0 0 0 0 0 0 . . . . | | . F J 0 0 0 0 0 0 0 0 0 0 1 1 . . F J L 7 L -1 0 0 0 0 0 0 0 0 -1 0 0 0 1 . L - - J . L -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 . . . . F - J . . F -1 -1 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 47, Previous: 67, Stack: 113:93:1 1
+Current: 47, Previous: 67, Current Symbol: |
+fNS: |
+sNS: L
+CHECK1 1 1 1 1
+CHECK2 46:1 48:0
+firstNeigh:27 secndNeigh:67
+thirdNeighSymblType:-1
+forthNeighSymblType: 0
+Next: 27
+>> Stack: 27:47:75 113:93:1 :: 2
+Set 27 to be loop element
+. F - - - - 1 0 0 0 0 0 0 0 0 0 1 . . . . | F - - 7 0 0 0 0 0 0 0 0 0 0 0 . . . . | | . F -1 0 0 0 0 0 0 0 0 0 0 1 1 . . F J L 7 L -1 0 0 0 0 0 0 0 0 -1 0 0 0 1 . L - - J . L -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 . . . . F - J . . F -1 -1 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 27, Previous: 47, Stack: 113:93:1 1
+Current: 27, Previous: 47, Current Symbol: |
+fNS: 7
+sNS: |
+CHECK1 1 1 1 1
+CHECK2 26:1 28:0
+firstNeigh:7 secndNeigh:47
+thirdNeighSymblType:-1
+forthNeighSymblType: 0
+Next: 7
+>> Stack: 7:27:76 113:93:1 :: 2
+Set 7 to be loop element
+. F - - - - 0 0 0 0 0 0 0 0 0 0 1 . . . . | F - - -1 0 0 0 0 0 0 0 0 0 0 0 . . . . | | . F -1 0 0 0 0 0 0 0 0 0 0 1 1 . . F J L 7 L -1 0 0 0 0 0 0 0 0 -1 0 0 0 1 . L - - J . L -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 . . . . F - J . . F -1 -1 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 7, Previous: 27, Stack: 113:93:1 1
+Current: 7, Previous: 27, Current Symbol: 7
+fNS: -
+sNS: |
+CHECK1 0 1 1 1
+CHECK2 8:0 -13:-1
+firstNeigh:6 secndNeigh:27
+thirdNeighSymblType:0
+Next: 6
+>> Stack: 6:7:77 113:93:1 :: 2
+Set 6 to be loop element
+. F - - - 0 0 0 0 0 0 0 0 0 0 0 1 . . . . | F - - -1 0 0 0 0 0 0 0 0 0 0 0 . . . . | | . F -1 0 0 0 0 0 0 0 0 0 0 1 1 . . F J L 7 L -1 0 0 0 0 0 0 0 0 -1 0 0 0 1 . L - - J . L -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 . . . . F - J . . F -1 -1 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 6, Previous: 7, Stack: 113:93:1 1
+Current: 6, Previous: 7, Current Symbol: -
+fNS: -
+sNS: 7
+CHECK1 1 1 1 1
+CHECK2 -14:-1 26:1
+firstNeigh:5 secndNeigh:7
+forthNeighSymblType: -1
+Next: 5
+>> Stack: 5:6:78 113:93:1 :: 2
+Set 5 to be loop element
+. F - - 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . . | F - - -1 0 0 0 0 0 0 0 0 0 0 0 . . . . | | . F -1 0 0 0 0 0 0 0 0 0 0 1 1 . . F J L 7 L -1 0 0 0 0 0 0 0 0 -1 0 0 0 1 . L - - J . L -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 . . . . F - J . . F -1 -1 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 5, Previous: 6, Stack: 113:93:1 1
+Current: 5, Previous: 6, Current Symbol: -
+fNS: -
+sNS: -
+CHECK1 1 1 1 1
+CHECK2 -15:-1 25:1
+firstNeigh:4 secndNeigh:6
+forthNeighSymblType: -1
+Next: 4
+>> Stack: 4:5:79 113:93:1 :: 2
+Set 4 to be loop element
+. F - 0 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . . | F - -1 -1 0 0 0 0 0 0 0 0 0 0 0 . . . . | | . F -1 0 0 0 0 0 0 0 0 0 0 1 1 . . F J L 7 L -1 0 0 0 0 0 0 0 0 -1 0 0 0 1 . L - - J . L -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 . . . . F - J . . F -1 -1 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 4, Previous: 5, Stack: 113:93:1 1
+Current: 4, Previous: 5, Current Symbol: -
+fNS: -
+sNS: -
+CHECK1 1 1 1 1
+CHECK2 -16:-1 24:1
+firstNeigh:3 secndNeigh:5
+forthNeighSymblType: -1
+Next: 3
+>> Stack: 3:4:80 113:93:1 :: 2
+Set 3 to be loop element
+. F 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . . | F -1 -1 -1 0 0 0 0 0 0 0 0 0 0 0 . . . . | | . F -1 0 0 0 0 0 0 0 0 0 0 1 1 . . F J L 7 L -1 0 0 0 0 0 0 0 0 -1 0 0 0 1 . L - - J . L -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 . . . . F - J . . F -1 -1 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 3, Previous: 4, Stack: 113:93:1 1
+Current: 3, Previous: 4, Current Symbol: -
+fNS: F
+sNS: -
+CHECK1 1 1 1 1
+CHECK2 -17:-1 23:1
+firstNeigh:2 secndNeigh:4
+forthNeighSymblType: -1
+Next: 2
+>> Stack: 2:3:81 113:93:1 :: 2
+Set 2 to be loop element
+. 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . . | -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 0 0 . . . . | | . F -1 0 0 0 0 0 0 0 0 0 0 1 1 . . F J L 7 L -1 0 0 0 0 0 0 0 0 -1 0 0 0 1 . L - - J . L -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 . . . . F - J . . F -1 -1 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 2, Previous: 3, Stack: 113:93:1 1
+Current: 2, Previous: 3, Current Symbol: F
+fNS: -
+sNS: |
+CHECK1 1 0 1 1
+CHECK2 1:1 -18:-1
+firstNeigh:3 secndNeigh:22
+thirdNeighSymblType:1
+Next: 22
+>> Stack: 22:2:82 113:93:1 :: 2
+Set 22 to be loop element
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . . 0 -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 0 0 . . . . | | . F -1 0 0 0 0 0 0 0 0 0 0 1 1 . . F J L 7 L -1 0 0 0 0 0 0 0 0 -1 0 0 0 1 . L - - J . L -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 . . . . F - J . . F -1 -1 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 22, Previous: 2, Stack: 113:93:1 1
+Current: 22, Previous: 2, Current Symbol: |
+fNS: F
+sNS: |
+CHECK1 1 1 1 1
+CHECK2 21:1 23:1
+firstNeigh:2 secndNeigh:42
+thirdNeighSymblType:1
+forthNeighSymblType: -1
+Next: 42
+>> Stack: 42:22:83 113:93:1 :: 2
+Set 42 to be loop element
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . 1 0 -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 0 0 . . . . 0 | . F -1 0 0 0 0 0 0 0 0 0 0 1 1 . . F J L 7 L -1 0 0 0 0 0 0 0 0 -1 0 0 0 1 . L - - J . L -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 . . . . F - J . . F -1 -1 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 42, Previous: 22, Stack: 113:93:1 1
+Current: 42, Previous: 22, Current Symbol: |
+fNS: |
+sNS: J
+CHECK1 1 1 1 1
+CHECK2 41:1 43:1
+firstNeigh:22 secndNeigh:62
+thirdNeighSymblType:1
+forthNeighSymblType: -1
+Next: 62
+>> Stack: 62:42:84 113:93:1 :: 2
+Set 62 to be loop element
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . 1 0 -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 0 0 . . . 1 0 -1 . F -1 0 0 0 0 0 0 0 0 0 0 1 1 . . F 0 L 7 L -1 0 0 0 0 0 0 0 0 -1 0 0 0 1 . L - - J . L -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 . . . . F - J . . F -1 -1 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 62, Previous: 42, Stack: 113:93:1 1
+Current: 62, Previous: 42, Current Symbol: J
+fNS: F
+sNS: |
+CHECK1 1 1 1 0
+CHECK2 63:1 82:1
+firstNeigh:61 secndNeigh:42
+thirdNeighSymblType:-1
+forthNeighSymblType: -1
+Next: 61
+>> Stack: 61:62:85 113:93:1 :: 2
+Set 61 to be loop element
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . 1 0 -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 0 0 . . . 1 0 -1 . F -1 0 0 0 0 0 0 0 0 0 0 1 1 . . 0 0 -1 7 L -1 0 0 0 0 0 0 0 0 -1 0 0 0 1 . L -1 - J . L -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 . . . . F - J . . F -1 -1 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 61, Previous: 62, Stack: 113:93:1 1
+Current: 61, Previous: 62, Current Symbol: F
+fNS: J
+sNS: L
+CHECK1 1 0 1 1
+CHECK2 60:1 41:1
+firstNeigh:62 secndNeigh:81
+thirdNeighSymblType:1
+forthNeighSymblType: 1
+Next: 81
+>> Stack: 81:61:86 113:93:1 :: 2
+Set 81 to be loop element
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . 1 0 -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 0 0 . . . 1 0 -1 . F -1 0 0 0 0 0 0 0 0 0 0 1 1 . 1 0 0 -1 7 L -1 0 0 0 0 0 0 0 0 -1 0 0 0 1 . 0 -1 - J . L -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 . . . . F - J . . F -1 -1 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 81, Previous: 61, Stack: 113:93:1 1
+Current: 81, Previous: 61, Current Symbol: L
+fNS: F
+sNS: -
+CHECK1 1 1 0 1
+CHECK2 101:1 80:1
+firstNeigh:61 secndNeigh:82
+thirdNeighSymblType:1
+forthNeighSymblType: 1
+Next: 82
+>> Stack: 82:81:87 113:93:1 :: 2
+Set 82 to be loop element
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . 1 0 -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 0 0 . . . 1 0 -1 . F -1 0 0 0 0 0 0 0 0 0 0 1 1 . 1 0 0 -1 7 L -1 0 0 0 0 0 0 0 0 -1 0 0 0 1 1 0 0 - J . L -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 . . . F - J . . F -1 -1 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 82, Previous: 81, Stack: 113:93:1 1
+Current: 82, Previous: 81, Current Symbol: -
+fNS: L
+sNS: -
+CHECK1 1 1 1 1
+CHECK2 62:0 102:1
+firstNeigh:81 secndNeigh:83
+thirdNeighSymblType:0
+forthNeighSymblType: 1
+Next: 83
+>> Stack: 83:82:88 113:93:1 :: 2
+Set 83 to be loop element
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . 1 0 -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 0 0 . . . 1 0 -1 . F -1 0 0 0 0 0 0 0 0 0 0 1 1 . 1 0 0 -1 7 L -1 0 0 0 0 0 0 0 0 -1 0 0 0 1 1 0 0 0 J . L -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 . . F - J . . F -1 -1 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 83, Previous: 82, Stack: 113:93:1 1
+Current: 83, Previous: 82, Current Symbol: -
+fNS: -
+sNS: J
+CHECK1 1 1 1 1
+CHECK2 63:1 103:1
+firstNeigh:82 secndNeigh:84
+thirdNeighSymblType:-1
+forthNeighSymblType: 1
+Next: 84
+>> Stack: 84:83:89 113:93:1 :: 2
+Set 84 to be loop element
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . 1 0 -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 0 0 . . . 1 0 -1 . F -1 0 0 0 0 0 0 0 0 0 0 1 1 . 1 0 0 -1 7 L -1 0 0 0 0 0 0 0 0 -1 0 0 0 1 1 0 0 0 0 . L -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 1 . F - J . . F -1 -1 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 84, Previous: 83, Stack: 113:93:1 1
+Current: 84, Previous: 83, Current Symbol: J
+fNS: -
+sNS: 7
+CHECK1 1 1 1 0
+CHECK2 85:1 104:1
+firstNeigh:83 secndNeigh:64
+thirdNeighSymblType:1
+forthNeighSymblType: 1
+Next: 64
+>> Stack: 64:84:90 113:93:1 :: 2
+Set 64 to be loop element
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . 1 0 -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 0 0 . . . 1 0 -1 . F -1 0 0 0 0 0 0 0 0 0 0 1 1 . 1 0 0 -1 0 L -1 0 0 0 0 0 0 0 0 -1 0 0 0 1 1 0 0 0 0 1 L -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 1 1 F - J . . F -1 -1 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 64, Previous: 84, Stack: 113:93:1 1
+Current: 64, Previous: 84, Current Symbol: 7
+fNS: L
+sNS: J
+CHECK1 0 1 1 1
+CHECK2 65:1 44:1
+firstNeigh:63 secndNeigh:84
+thirdNeighSymblType:1
+forthNeighSymblType: 1
+Next: 63
+>> Stack: 63:64:91 113:93:1 :: 2
+Set 63 to be loop element
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . 1 0 -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 0 0 . . . 1 0 -1 1 F -1 0 0 0 0 0 0 0 0 0 0 1 1 . 1 0 0 0 0 1 -1 0 0 0 0 0 0 0 0 -1 0 0 0 1 1 0 0 0 0 1 L -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 1 1 F - J . . F -1 -1 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 63, Previous: 64, Stack: 113:93:1 1
+Current: 63, Previous: 64, Current Symbol: L
+fNS: |
+sNS: 7
+CHECK1 1 1 0 1
+CHECK2 83:0 62:0
+firstNeigh:43 secndNeigh:64
+thirdNeighSymblType:0
+forthNeighSymblType: 0
+Next: 43
+>> Stack: 43:63:92 113:93:1 :: 2
+Set 43 to be loop element
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . 1 0 -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 0 0 . . . 1 0 0 1 F -1 0 0 0 0 0 0 0 0 0 0 1 1 . 1 0 0 0 0 1 -1 0 0 0 0 0 0 0 0 -1 0 0 0 1 1 0 0 0 0 1 L -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 1 1 F - J . . F -1 -1 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 43, Previous: 63, Stack: 113:93:1 1
+Current: 43, Previous: 63, Current Symbol: |
+fNS: F
+sNS: L
+CHECK1 1 1 1 1
+CHECK2 42:0 44:1
+firstNeigh:23 secndNeigh:63
+thirdNeighSymblType:0
+forthNeighSymblType: 1
+Next: 23
+>> Stack: 23:43:93 113:93:1 :: 2
+Set 23 to be loop element
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . 1 0 0 -1 -1 -1 0 0 0 0 0 0 0 0 0 0 0 . . . 1 0 0 1 F -1 0 0 0 0 0 0 0 0 0 0 1 1 . 1 0 0 0 0 1 -1 0 0 0 0 0 0 0 0 -1 0 0 0 1 1 0 0 0 0 1 L -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 1 1 F - J . . F -1 -1 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 23, Previous: 43, Stack: 113:93:1 1
+Current: 23, Previous: 43, Current Symbol: F
+fNS: -
+sNS: |
+CHECK1 1 0 1 1
+CHECK2 22:0 3:0
+firstNeigh:24 secndNeigh:43
+thirdNeighSymblType:0
+forthNeighSymblType: 0
+Next: 24
+>> Stack: 24:23:94 113:93:1 :: 2
+Set 24 to be loop element
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . 1 0 0 0 -1 -1 0 0 0 0 0 0 0 0 0 0 0 . . . 1 0 0 1 F -1 0 0 0 0 0 0 0 0 0 0 1 1 . 1 0 0 0 0 1 -1 0 0 0 0 0 0 0 0 -1 0 0 0 1 1 0 0 0 0 1 L -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 1 1 F - J . . F -1 -1 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 24, Previous: 23, Stack: 113:93:1 1
+Current: 24, Previous: 23, Current Symbol: -
+fNS: F
+sNS: -
+CHECK1 1 1 1 1
+CHECK2 4:0 44:1
+firstNeigh:23 secndNeigh:25
+thirdNeighSymblType:0
+forthNeighSymblType: 1
+Next: 25
+>> Stack: 25:24:95 113:93:1 :: 2
+Set 25 to be loop element
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . 1 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 . . . 1 0 0 1 F -1 0 0 0 0 0 0 0 0 0 0 1 1 . 1 0 0 0 0 1 -1 0 0 0 0 0 0 0 0 -1 0 0 0 1 1 0 0 0 0 1 L -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 1 1 F - J . . F -1 -1 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 25, Previous: 24, Stack: 113:93:1 1
+Current: 25, Previous: 24, Current Symbol: -
+fNS: -
+sNS: 7
+CHECK1 1 1 1 1
+CHECK2 5:0 45:1
+firstNeigh:24 secndNeigh:26
+thirdNeighSymblType:0
+forthNeighSymblType: 1
+Next: 26
+>> Stack: 26:25:96 113:93:1 :: 2
+Set 26 to be loop element
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 . . . 1 0 0 1 1 -1 0 0 0 0 0 0 0 0 0 0 1 1 . 1 0 0 0 0 1 -1 0 0 0 0 0 0 0 0 -1 0 0 0 1 1 0 0 0 0 1 L -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 1 1 F - J . . F -1 -1 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 26, Previous: 25, Stack: 113:93:1 1
+Current: 26, Previous: 25, Current Symbol: 7
+fNS: -
+sNS: J
+CHECK1 0 1 1 1
+CHECK2 27:0 6:0
+firstNeigh:25 secndNeigh:46
+thirdNeighSymblType:0
+forthNeighSymblType: 0
+Next: 46
+>> Stack: 46:26:97 113:93:1 :: 2
+Set 46 to be loop element
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 . . . 1 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 1 1 . 1 0 0 0 0 1 -1 0 0 0 0 0 0 0 0 -1 0 0 0 1 1 0 0 0 0 1 L -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 1 1 F - J . . F -1 -1 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 46, Previous: 26, Stack: 113:93:1 1
+Current: 46, Previous: 26, Current Symbol: J
+fNS: F
+sNS: 7
+CHECK1 1 1 1 0
+CHECK2 47:0 66:1
+firstNeigh:45 secndNeigh:26
+thirdNeighSymblType:0
+forthNeighSymblType: -1
+Next: 45
+>> Stack: 45:46:98 113:93:1 :: 2
+Set 45 to be loop element
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 . . . 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 . 1 0 0 0 0 1 -1 0 0 0 0 0 0 0 0 -1 0 0 0 1 1 0 0 0 0 1 L -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 1 1 F - J . . F -1 -1 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 45, Previous: 46, Stack: 113:93:1 1
+Current: 45, Previous: 46, Current Symbol: F
+fNS: J
+sNS: L
+CHECK1 1 0 1 1
+CHECK2 44:1 25:0
+firstNeigh:46 secndNeigh:65
+thirdNeighSymblType:1
+forthNeighSymblType: 0
+Next: 65
+>> Stack: 65:45:99 113:93:1 :: 2
+Set 65 to be loop element
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 . . . 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 . 1 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 -1 0 0 0 1 1 0 0 0 0 1 L -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 1 1 F - J . . F -1 -1 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 65, Previous: 45, Stack: 113:93:1 1
+Current: 65, Previous: 45, Current Symbol: L
+fNS: F
+sNS: 7
+CHECK1 1 1 0 1
+CHECK2 85:1 64:0
+firstNeigh:45 secndNeigh:66
+thirdNeighSymblType:1
+forthNeighSymblType: 0
+Next: 66
+>> Stack: 66:65:100 113:93:1 :: 2
+Set 66 to be loop element
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 . . . 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 . 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 1 1 0 0 0 0 1 L -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 1 1 F - J . . F -1 -1 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 66, Previous: 65, Stack: 113:93:1 1
+Current: 66, Previous: 65, Current Symbol: 7
+fNS: L
+sNS: L
+CHECK1 0 1 1 1
+CHECK2 67:0 46:0
+firstNeigh:65 secndNeigh:86
+thirdNeighSymblType:0
+forthNeighSymblType: 0
+Next: 86
+>> Stack: 86:66:101 113:93:1 :: 2
+Set 86 to be loop element
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 . . . 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 . 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 1 1 0 0 0 0 1 0 -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 1 1 F - J . . F -1 -1 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 86, Previous: 66, Stack: 113:93:1 1
+Current: 86, Previous: 66, Current Symbol: L
+fNS: 7
+sNS: 7
+CHECK1 1 1 0 1
+CHECK2 106:1 85:1
+firstNeigh:66 secndNeigh:87
+thirdNeighSymblType:1
+forthNeighSymblType: 1
+Next: 87
+>> Stack: 87:86:102 113:93:1 :: 2
+Set 87 to be loop element
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 . . . 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 . 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 1 1 0 0 0 0 1 0 0 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 1 1 F 1 J . . F -1 -1 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 87, Previous: 86, Stack: 113:93:1 1
+Current: 87, Previous: 86, Current Symbol: 7
+fNS: L
+sNS: J
+CHECK1 0 1 1 1
+CHECK2 88:1 67:0
+firstNeigh:86 secndNeigh:107
+thirdNeighSymblType:-1
+forthNeighSymblType: -1
+Next: 107
+>> Stack: 107:87:103 113:93:1 :: 2
+Set 107 to be loop element
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 . . . 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 . 1 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 1 1 0 0 0 0 1 0 0 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 1 1 F 1 0 . . F -1 -1 1 0 0 0 0 0 0 0 1 . . . L 7 . F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 107, Previous: 87, Stack: 113:93:1 1
+Current: 107, Previous: 87, Current Symbol: J
+fNS: -
+sNS: 7
+CHECK1 1 1 1 0
+CHECK2 108:1 127:1
+firstNeigh:106 secndNeigh:87
+thirdNeighSymblType:-1
+forthNeighSymblType: -1
+Next: 106
+>> Stack: 106:107:104 113:93:1 :: 2
+Set 106 to be loop element
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 . . . 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 . 1 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 1 1 0 0 0 0 1 0 0 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 1 1 F 0 0 -1 . F -1 -1 1 0 0 0 0 0 0 0 1 . . . L 7 -1 F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 106, Previous: 107, Stack: 113:93:1 1
+Current: 106, Previous: 107, Current Symbol: -
+fNS: F
+sNS: J
+CHECK1 1 1 1 1
+CHECK2 86:0 126:1
+firstNeigh:105 secndNeigh:107
+thirdNeighSymblType:0
+forthNeighSymblType: -1
+Next: 105
+>> Stack: 105:106:105 113:93:1 :: 2
+Set 105 to be loop element
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 . . . 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 . 1 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 1 1 0 0 0 0 1 0 0 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 0 0 -1 . F -1 -1 1 0 0 0 0 0 0 0 1 . . . L -1 -1 F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 105, Previous: 106, Stack: 113:93:1 1
+Current: 105, Previous: 106, Current Symbol: F
+fNS: -
+sNS: L
+CHECK1 1 0 1 1
+CHECK2 104:1 85:1
+firstNeigh:106 secndNeigh:125
+thirdNeighSymblType:1
+forthNeighSymblType: 1
+Next: 125
+>> Stack: 125:105:106 113:93:1 :: 2
+Set 125 to be loop element
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 . . . 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 . 1 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 1 1 0 0 0 0 1 0 0 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 0 0 -1 . F -1 -1 1 0 0 0 0 0 0 0 1 . . . 0 -1 -1 F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . . | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 125, Previous: 105, Stack: 113:93:1 1
+Current: 125, Previous: 105, Current Symbol: L
+fNS: F
+sNS: 7
+CHECK1 1 1 0 1
+CHECK2 145:1 124:1
+firstNeigh:105 secndNeigh:126
+thirdNeighSymblType:1
+forthNeighSymblType: 1
+Next: 126
+>> Stack: 126:125:107 113:93:1 :: 2
+Set 126 to be loop element
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 . . . 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 . 1 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 1 1 0 0 0 0 1 0 0 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 0 0 -1 . F -1 -1 1 0 0 0 0 0 0 0 1 . . 1 0 0 -1 F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . 1 | F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 126, Previous: 125, Stack: 113:93:1 1
+Current: 126, Previous: 125, Current Symbol: 7
+fNS: L
+sNS: |
+CHECK1 0 1 1 1
+CHECK2 127:1 106:0
+firstNeigh:125 secndNeigh:146
+thirdNeighSymblType:-1
+forthNeighSymblType: -1
+Next: 146
+>> Stack: 146:126:108 113:93:1 :: 2
+Set 146 to be loop element
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 . . . 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 . 1 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 1 1 0 0 0 0 1 0 0 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 -1 0 -1 . F -1 -1 1 0 0 0 0 0 0 0 1 . . 1 0 0 -1 F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . 1 0 F J L J | F 1 0 0 0 0 1 0 0 1 . . . F J L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 146, Previous: 126, Stack: 113:93:1 1
+Current: 146, Previous: 126, Current Symbol: |
+fNS: 7
+sNS: J
+CHECK1 1 1 1 1
+CHECK2 145:1 147:1
+firstNeigh:126 secndNeigh:166
+thirdNeighSymblType:1
+forthNeighSymblType: -1
+Next: 166
+>> Stack: 166:146:109 113:93:1 :: 2
+Set 166 to be loop element
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 . . . 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 . 1 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 1 1 0 0 0 0 1 0 0 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 -1 0 -1 . F -1 -1 1 0 0 0 0 0 0 0 1 . . 1 0 0 -1 F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . 1 0 -1 J L J | F 1 0 0 0 0 1 0 0 1 . . . F 0 L - 7 . | | 1 0 0 0 0 1 1 1 . . . . L - - - J . L J 1 0 0 0 0 1 . .
+Current: 166, Previous: 146, Stack: 113:93:1 1
+Current: 166, Previous: 146, Current Symbol: J
+fNS: F
+sNS: |
+CHECK1 1 1 1 0
+CHECK2 167:1 186:1
+firstNeigh:165 secndNeigh:146
+thirdNeighSymblType:-1
+forthNeighSymblType: -1
+Next: 165
+>> Stack: 165:166:110 113:93:1 :: 2
+Set 165 to be loop element
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 . . . 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 . 1 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 1 1 0 0 0 0 1 0 0 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 -1 0 -1 . F -1 -1 1 0 0 0 0 0 0 0 1 . . 1 0 0 -1 F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . 1 0 -1 J L J | F 1 0 0 0 0 1 0 0 1 . . . 0 0 -1 - 7 . | | 1 0 0 0 0 1 1 1 . . . . L -1 - - J . L J 1 0 0 0 0 1 . .
+Current: 165, Previous: 166, Stack: 113:93:1 1
+Current: 165, Previous: 166, Current Symbol: F
+fNS: J
+sNS: L
+CHECK1 1 0 1 1
+CHECK2 164:1 145:1
+firstNeigh:166 secndNeigh:185
+thirdNeighSymblType:1
+forthNeighSymblType: 1
+Next: 185
+>> Stack: 185:165:111 113:93:1 :: 2
+Set 185 to be loop element
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 . . . 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 . 1 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 1 1 0 0 0 0 1 0 0 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 -1 0 -1 . F -1 -1 1 0 0 0 0 0 0 0 1 . . 1 0 0 -1 F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . 1 0 -1 J L J | F 1 0 0 0 0 1 0 0 1 . . 1 0 0 -1 - 7 . | | 1 0 0 0 0 1 1 1 . . . . 0 -1 - - J . L J 1 0 0 0 0 1 . .
+Current: 185, Previous: 165, Stack: 113:93:1 1
+Current: 185, Previous: 165, Current Symbol: L
+fNS: F
+sNS: -
+CHECK1 1 1 0 1
+CHECK2 205:-1 184:1
+firstNeigh:165 secndNeigh:186
+forthNeighSymblType: 1
+Next: 186
+>> Stack: 186:185:112 113:93:1 :: 2
+Set 186 to be loop element
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 . . . 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 . 1 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 1 1 0 0 0 0 1 0 0 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 -1 0 -1 . F -1 -1 1 0 0 0 0 0 0 0 1 . . 1 0 0 -1 F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . 1 0 -1 J L J | F 1 0 0 0 0 1 0 0 1 . . 1 0 0 -1 - 7 . | | 1 0 0 0 0 1 1 1 . . . 1 0 0 - - J . L J 1 0 0 0 0 1 . .
+Current: 186, Previous: 185, Stack: 113:93:1 1
+Current: 186, Previous: 185, Current Symbol: -
+fNS: L
+sNS: -
+CHECK1 1 1 1 1
+CHECK2 166:0 206:-1
+firstNeigh:185 secndNeigh:187
+thirdNeighSymblType:0
+Next: 187
+>> Stack: 187:186:113 113:93:1 :: 2
+Set 187 to be loop element
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 . . . 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 . 1 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 1 1 0 0 0 0 1 0 0 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 -1 0 -1 . F -1 -1 1 0 0 0 0 0 0 0 1 . . 1 0 0 -1 F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . 1 0 -1 J L J | F 1 0 0 0 0 1 0 0 1 . . 1 0 0 -1 - 7 . | | 1 0 0 0 0 1 1 1 . . . 1 0 0 0 - J . L J 1 0 0 0 0 1 . .
+Current: 187, Previous: 186, Stack: 113:93:1 1
+Current: 187, Previous: 186, Current Symbol: -
+fNS: -
+sNS: -
+CHECK1 1 1 1 1
+CHECK2 167:1 207:-1
+firstNeigh:186 secndNeigh:188
+thirdNeighSymblType:-1
+Next: 188
+>> Stack: 188:187:114 113:93:1 :: 2
+Set 188 to be loop element
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 . . . 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 . 1 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 1 1 0 0 0 0 1 0 0 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 -1 0 -1 . F -1 -1 1 0 0 0 0 0 0 0 1 . . 1 0 0 -1 F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . 1 0 -1 J L J | F 1 0 0 0 0 1 0 0 1 . . 1 0 0 -1 - 7 . | | 1 0 0 0 0 1 1 1 . . . 1 0 0 0 0 J . L J 1 0 0 0 0 1 . .
+Current: 188, Previous: 187, Stack: 113:93:1 1
+Current: 188, Previous: 187, Current Symbol: -
+fNS: -
+sNS: J
+CHECK1 1 1 1 1
+CHECK2 168:1 208:-1
+firstNeigh:187 secndNeigh:189
+thirdNeighSymblType:-1
+Next: 189
+>> Stack: 189:188:115 113:93:1 :: 2
+Set 189 to be loop element
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 . . . 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 . 1 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 1 1 0 0 0 0 1 0 0 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 -1 0 -1 . F -1 -1 1 0 0 0 0 0 0 0 1 . . 1 0 0 -1 F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . 1 0 -1 J L J | F 1 0 0 0 0 1 0 0 1 . . 1 0 0 -1 -1 7 . | | 1 0 0 0 0 1 1 1 . . . 1 0 0 0 0 0 . L J 1 0 0 0 0 1 . .
+Current: 189, Previous: 188, Stack: 113:93:1 1
+Current: 189, Previous: 188, Current Symbol: J
+fNS: -
+sNS: 7
+CHECK1 1 1 1 0
+CHECK2 190:1 209:-1
+firstNeigh:188 secndNeigh:169
+thirdNeighSymblType:1
+Next: 169
+>> Stack: 169:189:116 113:93:1 :: 2
+Set 169 to be loop element
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 . . . 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 . 1 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 1 1 0 0 0 0 1 0 0 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 -1 0 -1 . F -1 -1 1 0 0 0 0 0 0 0 1 . . 1 0 0 -1 F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . 1 0 -1 J L J | F 1 0 0 0 0 1 0 0 1 . . 1 0 0 -1 -1 0 . | | 1 0 0 0 0 1 1 1 . . . 1 0 0 0 0 0 1 L J 1 0 0 0 0 1 . .
+Current: 169, Previous: 189, Stack: 113:93:1 1
+Current: 169, Previous: 189, Current Symbol: 7
+fNS: -
+sNS: J
+CHECK1 0 1 1 1
+CHECK2 170:1 149:1
+firstNeigh:168 secndNeigh:189
+thirdNeighSymblType:1
+forthNeighSymblType: 1
+Next: 168
+>> Stack: 168:169:117 113:93:1 :: 2
+Set 168 to be loop element
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 . . . 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 . 1 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 1 1 0 0 0 0 1 0 0 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 -1 0 -1 . F -1 -1 1 0 0 0 0 0 0 0 1 . . 1 0 0 -1 F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . 1 0 -1 J 1 J | F 1 0 0 0 0 1 0 0 1 . . 1 0 0 -1 0 0 1 | | 1 0 0 0 0 1 1 1 . . . 1 0 0 0 0 0 1 L J 1 0 0 0 0 1 . .
+Current: 168, Previous: 169, Stack: 113:93:1 1
+Current: 168, Previous: 169, Current Symbol: -
+fNS: L
+sNS: 7
+CHECK1 1 1 1 1
+CHECK2 148:1 188:0
+firstNeigh:167 secndNeigh:169
+thirdNeighSymblType:1
+forthNeighSymblType: 0
+Next: 167
+>> Stack: 167:168:118 113:93:1 :: 2
+Set 167 to be loop element
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 . . . 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 . 1 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 1 1 0 0 0 0 1 0 0 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 -1 0 -1 . F -1 -1 1 0 0 0 0 0 0 0 1 . . 1 0 0 -1 F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . 1 0 -1 1 1 J | F 1 0 0 0 0 1 0 0 1 . . 1 0 0 0 0 0 1 | | 1 0 0 0 0 1 1 1 . . . 1 0 0 0 0 0 1 L J 1 0 0 0 0 1 . .
+Current: 167, Previous: 168, Stack: 113:93:1 1
+Current: 167, Previous: 168, Current Symbol: L
+fNS: F
+sNS: -
+CHECK1 1 1 0 1
+CHECK2 187:0 166:0
+firstNeigh:147 secndNeigh:168
+thirdNeighSymblType:0
+forthNeighSymblType: 0
+Next: 147
+>> Stack: 147:167:119 113:93:1 :: 2
+Set 147 to be loop element
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 . . . 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 . 1 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 1 1 0 0 0 0 1 0 0 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 -1 0 -1 . F -1 -1 1 0 0 0 0 0 0 0 1 . . 1 0 0 -1 F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . 1 0 0 1 1 J | F 1 0 0 0 0 1 0 0 1 . . 1 0 0 0 0 0 1 | | 1 0 0 0 0 1 1 1 . . . 1 0 0 0 0 0 1 L J 1 0 0 0 0 1 . .
+Current: 147, Previous: 167, Stack: 113:93:1 1
+Current: 147, Previous: 167, Current Symbol: F
+fNS: J
+sNS: L
+CHECK1 1 0 1 1
+CHECK2 146:0 127:1
+firstNeigh:148 secndNeigh:167
+thirdNeighSymblType:0
+forthNeighSymblType: -1
+Next: 148
+>> Stack: 148:147:120 113:93:1 :: 2
+Set 148 to be loop element
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 . . . 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 . 1 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 1 1 0 0 0 0 1 0 0 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 -1 0 -1 . F -1 -1 1 0 0 0 0 0 0 0 1 . . 1 0 0 -1 F 7 | | L 1 0 -1 0 0 0 0 0 1 . . . 1 0 0 0 1 J | F 1 0 0 0 0 1 0 0 1 . . 1 0 0 0 0 0 1 | | 1 0 0 0 0 1 1 1 . . . 1 0 0 0 0 0 1 L J 1 0 0 0 0 1 . .
+Current: 148, Previous: 147, Stack: 113:93:1 1
+Current: 148, Previous: 147, Current Symbol: J
+fNS: F
+sNS: F
+CHECK1 1 1 1 0
+CHECK2 149:1 168:0
+firstNeigh:147 secndNeigh:128
+thirdNeighSymblType:0
+forthNeighSymblType: 0
+Next: 128
+>> Stack: 128:148:121 113:93:1 :: 2
+Set 128 to be loop element
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 . . . 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 . 1 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 1 1 0 0 0 0 1 0 0 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 -1 0 -1 . F -1 -1 1 0 0 0 0 0 0 0 1 . . 1 0 0 -1 0 7 | | L 1 0 -1 0 0 0 0 0 1 . . . 1 0 0 0 0 J | F 1 0 0 0 0 1 0 0 1 . . 1 0 0 0 0 0 1 | | 1 0 0 0 0 1 1 1 . . . 1 0 0 0 0 0 1 L J 1 0 0 0 0 1 . .
+Current: 128, Previous: 148, Stack: 113:93:1 1
+Current: 128, Previous: 148, Current Symbol: F
+fNS: 7
+sNS: J
+CHECK1 1 0 1 1
+CHECK2 127:1 108:1
+firstNeigh:129 secndNeigh:148
+thirdNeighSymblType:-1
+forthNeighSymblType: -1
+Next: 129
+>> Stack: 129:128:122 113:93:1 :: 2
+Set 129 to be loop element
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 . . . 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 . 1 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 1 1 0 0 0 0 1 0 0 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 -1 0 -1 . F -1 -1 1 0 0 0 0 0 0 0 1 . . 1 0 0 -1 0 0 | | L 1 0 -1 0 0 0 0 0 1 . . . 1 0 0 0 0 J | F 1 0 0 0 0 1 0 0 1 . . 1 0 0 0 0 0 1 | | 1 0 0 0 0 1 1 1 . . . 1 0 0 0 0 0 1 L J 1 0 0 0 0 1 . .
+Current: 129, Previous: 128, Stack: 113:93:1 1
+Current: 129, Previous: 128, Current Symbol: 7
+fNS: F
+sNS: L
+CHECK1 0 1 1 1
+CHECK2 130:1 109:1
+firstNeigh:128 secndNeigh:149
+thirdNeighSymblType:-1
+forthNeighSymblType: -1
+Next: 149
+>> Stack: 149:129:123 113:93:1 :: 2
+Set 149 to be loop element
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 . . . 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 . 1 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 1 1 0 0 0 0 1 0 0 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 -1 0 -1 -1 F -1 -1 1 0 0 0 0 0 0 0 1 . . 1 0 0 -1 0 0 -1 | L 1 0 -1 0 0 0 0 0 1 . . . 1 0 0 0 0 J | F 1 0 0 0 0 1 0 0 1 . . 1 0 0 0 0 0 1 | | 1 0 0 0 0 1 1 1 . . . 1 0 0 0 0 0 1 L J 1 0 0 0 0 1 . .
+Current: 149, Previous: 129, Stack: 113:93:1 1
+Current: 149, Previous: 129, Current Symbol: L
+fNS: 7
+sNS: J
+CHECK1 1 1 0 1
+CHECK2 169:0 148:0
+firstNeigh:129 secndNeigh:150
+thirdNeighSymblType:0
+forthNeighSymblType: 0
+Next: 150
+>> Stack: 150:149:124 113:93:1 :: 2
+Set 150 to be loop element
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 . . . 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 . 1 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 1 1 0 0 0 0 1 0 0 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 -1 0 -1 -1 F -1 -1 1 0 0 0 0 0 0 0 1 . . 1 0 0 -1 0 0 -1 | L 1 0 -1 0 0 0 0 0 1 . . . 1 0 0 0 0 0 | F 1 0 0 0 0 1 0 0 1 . . 1 0 0 0 0 0 1 | | 1 0 0 0 0 1 1 1 . . . 1 0 0 0 0 0 1 L J 1 0 0 0 0 1 . .
+Current: 150, Previous: 149, Stack: 113:93:1 1
+Current: 150, Previous: 149, Current Symbol: J
+fNS: L
+sNS: |
+CHECK1 1 1 1 0
+CHECK2 151:1 170:1
+firstNeigh:149 secndNeigh:130
+thirdNeighSymblType:1
+forthNeighSymblType: 1
+Next: 130
+>> Stack: 130:150:125 113:93:1 :: 2
+Set 130 to be loop element
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 . . . 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 . 1 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 1 1 0 0 0 0 1 0 0 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 -1 0 -1 -1 F -1 -1 1 0 0 0 0 0 0 0 1 . . 1 0 0 -1 0 0 0 | L 1 0 -1 0 0 0 0 0 1 . . . 1 0 0 0 0 0 1 F 1 0 0 0 0 1 0 0 1 . . 1 0 0 0 0 0 1 | | 1 0 0 0 0 1 1 1 . . . 1 0 0 0 0 0 1 L J 1 0 0 0 0 1 . .
+Current: 130, Previous: 150, Stack: 113:93:1 1
+Current: 130, Previous: 150, Current Symbol: |
+fNS: F
+sNS: J
+CHECK1 1 1 1 1
+CHECK2 129:0 131:1
+firstNeigh:110 secndNeigh:150
+thirdNeighSymblType:0
+forthNeighSymblType: 1
+Next: 110
+>> Stack: 110:130:126 113:93:1 :: 2
+Set 110 to be loop element
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 . . . 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 . 1 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 1 1 0 0 0 0 1 0 0 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 -1 0 -1 -1 0 -1 -1 1 0 0 0 0 0 0 0 1 . . 1 0 0 -1 0 0 0 1 L 1 0 -1 0 0 0 0 0 1 . . . 1 0 0 0 0 0 1 F 1 0 0 0 0 1 0 0 1 . . 1 0 0 0 0 0 1 | | 1 0 0 0 0 1 1 1 . . . 1 0 0 0 0 0 1 L J 1 0 0 0 0 1 . .
+Current: 110, Previous: 130, Stack: 113:93:1 1
+Current: 110, Previous: 130, Current Symbol: F
+fNS: 7
+sNS: |
+CHECK1 1 0 1 1
+CHECK2 109:1 90:1
+firstNeigh:111 secndNeigh:130
+thirdNeighSymblType:-1
+forthNeighSymblType: -1
+Next: 111
+>> Stack: 111:110:127 113:93:1 :: 2
+Set 111 to be loop element
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 . . . 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 . 1 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 1 1 0 0 0 0 1 0 0 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 -1 0 -1 -1 0 0 -1 1 0 0 0 0 0 0 0 1 . . 1 0 0 -1 0 0 0 1 L 1 0 -1 0 0 0 0 0 1 . . . 1 0 0 0 0 0 1 F 1 0 0 0 0 1 0 0 1 . . 1 0 0 0 0 0 1 | | 1 0 0 0 0 1 1 1 . . . 1 0 0 0 0 0 1 L J 1 0 0 0 0 1 . .
+Current: 111, Previous: 110, Stack: 113:93:1 1
+Current: 111, Previous: 110, Current Symbol: 7
+fNS: F
+sNS: |
+CHECK1 0 1 1 1
+CHECK2 112:1 91:0
+firstNeigh:110 secndNeigh:131
+thirdNeighSymblType:-1
+forthNeighSymblType: -1
+Next: 131
+>> Stack: 131:111:128 113:93:1 :: 2
+Set 131 to be loop element
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 . . . 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 . 1 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 1 1 0 0 0 0 1 0 0 -1 -1 -1 -1 0 0 0 0 0 0 0 0 1 1 1 1 1 0 -1 0 -1 -1 0 0 -1 1 0 0 0 0 0 0 0 1 . . 1 0 0 -1 0 0 0 0 L 1 0 -1 0 0 0 0 0 1 . . . 1 0 0 0 0 0 1 F 1 0 0 0 0 1 0 0 1 . . 1 0 0 0 0 0 1 | | 1 0 0 0 0 1 1 1 . . . 1 0 0 0 0 0 1 L J 1 0 0 0 0 1 . .
+Current: 131, Previous: 111, Stack: 113:93:1 1
+Current: 131, Previous: 111, Current Symbol: |
+fNS: 7
+sNS: |
+CHECK1 1 1 1 1
+CHECK2 130:0 132:1
+firstNeigh:111 secndNeigh:151
+thirdNeighSymblType:0
+forthNeighSymblType: -1
+Next: 151
+>> Stack: 151:131:129 113:93:1 :: 2
+Set 151 to be loop element
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 . . . 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 . 1 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 1 1 0 0 0 0 1 0 0 -1 -1 -1 -1 0 0 0 0 0 0 0 0 1 1 1 1 1 0 -1 0 -1 -1 0 0 -1 1 0 0 0 0 0 0 0 1 . . 1 0 0 -1 0 0 0 0 -1 1 0 -1 0 0 0 0 0 1 . . . 1 0 0 0 0 0 0 F 1 0 0 0 0 1 0 0 1 . . 1 0 0 0 0 0 1 | | 1 0 0 0 0 1 1 1 . . . 1 0 0 0 0 0 1 L J 1 0 0 0 0 1 . .
+Current: 151, Previous: 131, Stack: 113:93:1 1
+Current: 151, Previous: 131, Current Symbol: |
+fNS: |
+sNS: |
+CHECK1 1 1 1 1
+CHECK2 150:0 152:1
+firstNeigh:131 secndNeigh:171
+thirdNeighSymblType:0
+forthNeighSymblType: -1
+Next: 171
+>> Stack: 171:151:130 113:93:1 :: 2
+Set 171 to be loop element
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 . . . 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 . 1 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 1 1 0 0 0 0 1 0 0 -1 -1 -1 -1 0 0 0 0 0 0 0 0 1 1 1 1 1 0 -1 0 -1 -1 0 0 -1 1 0 0 0 0 0 0 0 1 . . 1 0 0 -1 0 0 0 0 -1 1 0 -1 0 0 0 0 0 1 . . . 1 0 0 0 0 0 0 -1 1 0 0 0 0 1 0 0 1 . . 1 0 0 0 0 0 1 0 | 1 0 0 0 0 1 1 1 . . . 1 0 0 0 0 0 1 L J 1 0 0 0 0 1 . .
+Current: 171, Previous: 151, Stack: 113:93:1 1
+Current: 171, Previous: 151, Current Symbol: |
+fNS: |
+sNS: L
+CHECK1 1 1 1 1
+CHECK2 170:1 172:1
+firstNeigh:151 secndNeigh:191
+thirdNeighSymblType:1
+forthNeighSymblType: -1
+Next: 191
+>> Stack: 191:171:131 113:93:1 :: 2
+Set 191 to be loop element
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 . . . 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 . 1 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 1 1 0 0 0 0 1 0 0 -1 -1 -1 -1 0 0 0 0 0 0 0 0 1 1 1 1 1 0 -1 0 -1 -1 0 0 -1 1 0 0 0 0 0 0 0 1 . . 1 0 0 -1 0 0 0 0 -1 1 0 -1 0 0 0 0 0 1 . . . 1 0 0 0 0 0 0 -1 1 0 0 0 0 1 0 0 1 . . 1 0 0 0 0 0 1 0 -1 1 0 0 0 0 1 1 1 . . . 1 0 0 0 0 0 1 0 J 1 0 0 0 0 1 . .
+Current: 191, Previous: 171, Stack: 113:93:1 1
+Current: 191, Previous: 171, Current Symbol: L
+fNS: |
+sNS: J
+CHECK1 1 1 0 1
+CHECK2 211:-1 190:1
+firstNeigh:171 secndNeigh:192
+forthNeighSymblType: 1
+Next: 192
+>> Stack: 192:191:132 113:93:1 :: 2
+Set 192 to be loop element
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 . . . 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 . 1 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 1 1 0 0 0 0 1 0 0 -1 -1 -1 -1 0 0 0 0 0 0 0 0 1 1 1 1 1 0 -1 0 -1 -1 0 0 -1 1 0 0 0 0 0 0 0 1 . . 1 0 0 -1 0 0 0 0 -1 1 0 -1 0 0 0 0 0 1 . . . 1 0 0 0 0 0 0 -1 1 0 0 0 0 1 0 0 1 . . 1 0 0 0 0 0 1 0 -1 1 0 0 0 0 1 1 1 . . . 1 0 0 0 0 0 1 0 0 1 0 0 0 0 1 . .
+Current: 192, Previous: 191, Stack: 113:93:1 1
+Current: 192, Previous: 191, Current Symbol: J
+fNS: L
+sNS: |
+CHECK1 1 1 1 0
+CHECK2 193:1 212:-1
+firstNeigh:191 secndNeigh:172
+thirdNeighSymblType:1
+Next: 172
+>> Stack: 172:192:133 113:93:1 :: 2
+Set 172 to be loop element
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 . . . 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 . 1 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 1 1 0 0 0 0 1 0 0 -1 -1 -1 -1 0 0 0 0 0 0 0 0 1 1 1 1 1 0 -1 0 -1 -1 0 0 -1 1 0 0 0 0 0 0 0 1 . . 1 0 0 -1 0 0 0 0 -1 1 0 -1 0 0 0 0 0 1 . . . 1 0 0 0 0 0 0 -1 1 0 0 0 0 1 0 0 1 . . 1 0 0 0 0 0 1 0 0 1 0 0 0 0 1 1 1 . . . 1 0 0 0 0 0 1 0 0 1 0 0 0 0 1 . .
+Current: 172, Previous: 192, Stack: 113:93:1 1
+Current: 172, Previous: 192, Current Symbol: |
+fNS: F
+sNS: J
+CHECK1 1 1 1 1
+CHECK2 171:0 173:1
+firstNeigh:152 secndNeigh:192
+thirdNeighSymblType:0
+forthNeighSymblType: 1
+Next: 152
+>> Stack: 152:172:134 113:93:1 :: 2
+Set 152 to be loop element
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 . . . 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 . 1 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 1 1 0 0 0 0 1 0 0 -1 -1 -1 -1 0 0 0 0 0 0 0 0 1 1 1 1 1 0 -1 0 -1 -1 0 0 -1 1 0 0 0 0 0 0 0 1 . . 1 0 0 -1 0 0 0 0 -1 1 0 -1 0 0 0 0 0 1 . . . 1 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 1 . . 1 0 0 0 0 0 1 0 0 1 0 0 0 0 1 1 1 . . . 1 0 0 0 0 0 1 0 0 1 0 0 0 0 1 . .
+Current: 152, Previous: 172, Stack: 113:93:1 1
+Current: 152, Previous: 172, Current Symbol: F
+fNS: J
+sNS: |
+CHECK1 1 0 1 1
+CHECK2 151:0 132:1
+firstNeigh:153 secndNeigh:172
+thirdNeighSymblType:0
+forthNeighSymblType: -1
+Next: 153
+>> Stack: 153:152:135 113:93:1 :: 2
+Set 153 to be loop element
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 . . . 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 . 1 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 1 1 0 0 0 0 1 0 0 -1 -1 -1 -1 0 0 0 0 0 0 0 0 1 1 1 1 1 0 -1 0 -1 -1 0 0 -1 1 0 0 0 0 0 0 0 1 . . 1 0 0 -1 0 0 0 0 -1 1 0 -1 0 0 0 0 0 1 . . . 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 . . 1 0 0 0 0 0 1 0 0 1 0 0 0 0 1 1 1 . . . 1 0 0 0 0 0 1 0 0 1 0 0 0 0 1 . .
+Current: 153, Previous: 152, Stack: 113:93:1 1
+Current: 153, Previous: 152, Current Symbol: J
+fNS: F
+sNS: 7
+CHECK1 1 1 1 0
+CHECK2 154:0 173:1
+firstNeigh:152 secndNeigh:133
+thirdNeighSymblType:1
+forthNeighSymblType: 1
+Next: 133
+>> Stack: 133:153:136 113:93:1 :: 2
+Set 133 to be loop element
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 . . . 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 . 1 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 1 1 0 0 0 0 1 0 0 -1 -1 -1 -1 0 0 0 0 0 0 0 0 1 1 1 1 1 0 -1 0 -1 -1 0 0 -1 1 0 0 0 0 0 0 0 1 . . 1 0 0 -1 0 0 0 0 -1 0 0 -1 0 0 0 0 0 1 . . . 1 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 1 . . 1 0 0 0 0 0 1 0 0 1 0 0 0 0 1 1 1 . . . 1 0 0 0 0 0 1 0 0 1 0 0 0 0 1 . .
+Current: 133, Previous: 153, Stack: 113:93:1 1
+Current: 133, Previous: 153, Current Symbol: 7
+fNS: L
+sNS: J
+CHECK1 0 1 1 1
+CHECK2 134:0 113:1
+firstNeigh:132 secndNeigh:153
+thirdNeighSymblType:0
+forthNeighSymblType: 1
+Next: 132
+>> Stack: 132:133:137 113:93:1 :: 2
+Set 132 to be loop element
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 . . . 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 . 1 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 1 1 0 0 0 0 1 0 0 -1 -1 -1 -1 0 0 0 0 0 0 0 0 1 1 1 1 1 0 -1 0 -1 -1 0 0 -1 1 0 0 0 0 0 0 0 1 . . 1 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 0 0 1 . . . 1 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 1 . . 1 0 0 0 0 0 1 0 0 1 0 0 0 0 1 1 1 . . . 1 0 0 0 0 0 1 0 0 1 0 0 0 0 1 . .
+Current: 132, Previous: 133, Stack: 113:93:1 1
+Current: 132, Previous: 133, Current Symbol: L
+fNS: F
+sNS: 7
+CHECK1 1 1 0 1
+CHECK2 152:0 131:0
+firstNeigh:112 secndNeigh:133
+thirdNeighSymblType:0
+forthNeighSymblType: 0
+Next: 112
+>> Stack: 112:132:138 113:93:1 :: 2
+Set 112 to be loop element
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 . . . 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 . 1 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 1 1 0 0 0 0 1 0 0 -1 -1 -1 -1 0 0 0 0 0 0 0 0 1 1 1 1 1 0 -1 0 -1 -1 0 0 0 1 0 0 0 0 0 0 0 1 . . 1 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 0 0 1 . . . 1 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 1 . . 1 0 0 0 0 0 1 0 0 1 0 0 0 0 1 1 1 . . . 1 0 0 0 0 0 1 0 0 1 0 0 0 0 1 . .
+Current: 112, Previous: 132, Stack: 113:93:1 1
+Current: 112, Previous: 132, Current Symbol: F
+fNS: J
+sNS: L
+CHECK1 1 0 1 1
+CHECK2 111:0 92:0
+firstNeigh:113 secndNeigh:132
+thirdNeighSymblType:0
+forthNeighSymblType: 0
+Next: 113
+>> Stack: 113:112:139 113:93:1 :: 2
+Set 113 to be loop element
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 . . . 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 . . . 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 . 1 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 1 1 0 0 0 0 1 0 0 -1 -1 -1 -1 0 0 0 0 0 0 0 0 1 1 1 1 1 0 -1 0 -1 -1 0 0 0 0 0 0 0 0 0 0 0 1 . . 1 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 0 0 1 . . . 1 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 1 . . 1 0 0 0 0 0 1 0 0 1 0 0 0 0 1 1 1 . . . 1 0 0 0 0 0 1 0 0 1 0 0 0 0 1 . .
+Current: 113, Previous: 112, Stack: 113:93:1 1
+Current: 113, Previous: 112, Current Symbol: J
+fNS: F
+sNS: S
+CHECK1 1 1 1 0
+CHECK2 114:0 133:0
+firstNeigh:112 secndNeigh:93
+thirdNeighSymblType:0
+forthNeighSymblType: 0
+Next: 
+Part 1: 70
+10000000000000001...
+10000000000000000...
+100100000000000011.1
+00000020000000200011
+00001002222000000001
+11110202200000000000
+1..10020000000200000
+1...1000000001000100
+1..10000010010000111
+...100000100100001..
+
